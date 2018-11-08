@@ -1,0 +1,61 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+나무각목,3,없음,1,2,0,0,0,0.95,0.8,3,92,1,2,1,N,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/5.gif, , ,5b35917aa844441bf88b2719
+참나무 야구방망이,80,없음,1,5,0,0,0,0.8,0.5,4,75,1,2,1,N,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/7.gif, , ,5b35917aa844441bf88b271a
+알루미늄 파이프,190,없음,1,10,0,0,0,0.8,0.95,6,63,1,2,1,N,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/9.gif, , ,5b35917aa844441bf88b271b
+고급참나무 야구방망이,740,없음,1,15,0,0,0,0.8,0.95,8,70,1,2,1,N,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/7.gif, , ,5b35917aa844441bf88b271c
+일본도,2800,도검,1,21,0,0,0,0.9,0.7,12,120,1,2,1,N,4,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/13.gif, , ,5b35917aa844441bf88b271d
+철퇴,15000,둔기,2,111,0,0,0,0.8,0.6,30,32,1,2,1,N,5,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/16.gif, , ,5b35917aa844441bf88b271e
+장검,41000,도검,2,78,0,0,0,0.85,0.7,21,80,1,2,1,N,6,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/19.gif, , ,5b35917aa844441bf88b271f
+강철창,92000,장창,2,55,0,0,0,0.77,0.8,25,80,1,2,1,N,7,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4034.gif, , ,5b35917aa844441bf88b2720
+강철도끼,99000,도끼,2,180,0,0,0,0.75,0.6,33,32,1,2,1,N,8,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/128.gif, , ,5b35917aa844441bf88b2721
+양날도끼,140000,도끼,3,353,0,0,0,0.73,0.5,37,32,1,2,1,N,9,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/22.gif, , ,5b35917aa844441bf88b2722
+양손검,485000,도검,3,298,0,0,0,0.78,0.6,40,80,1,2,1,N,10,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/25.gif, , ,5b35917aa844441bf88b2723
+양손장창,650000,장창,3,129,0,0,0,0.75,0.75,30,80,1,2,1,N,11,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4034.gif, , ,5b35917aa844441bf88b2724
+산타보따리,846000,둔기,3,723,0,0,0,0.75,0.4,55,29,1,2,1,N,12,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4095.gif, , ,5b35917aa844441bf88b2725
+언필드의 창,1499000,장창,4,231,0,0,0,0.75,0.6,60,80,1,2,1,N,13,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/28.gif, , ,5b35917aa844441bf88b2726
+언필드의 검,2830000,도검,4,535,0,0,0,0.8,0.5,48,80,1,2,1,N,14,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4005.gif, , ,5b35917aa844441bf88b2727
+언필드의 도끼,3540000,도끼,4,780,0,0,0,0.71,0.45,66,32,1,2,1,N,15,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/131.gif, , ,5b35917aa844441bf88b2728
+언필드의 해머,4230000,둔기,4,1310,0,0,0,0.7,0.4,73,26,1,2,1,N,16,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4000.gif, , ,5b35917aa844441bf88b2729
+베라모스 블레이드,5540000,도검,5,920,0,0,0,0.73,0.5,75,75,1,2,1,N,17,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/31.gif, , ,5b35917aa844441bf88b272a
+베라모스 스피어,12980000,장창,5,398,0,0,0,0.7,0.6,68,75,1,2,1,N,18,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4001.gif, , ,5b35917aa844441bf88b272b
+베라모스 메이스,14150000,둔기,5,1620,0,0,0,0.65,0.4,108,27,1,2,1,N,19,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/130.gif, , ,5b35917aa844441bf88b272c
+베라모스 엑스,19800000,도끼,5,1350,0,0,0,0.69,0.45,95,35,1,2,1,N,20,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/132.gif, , ,5b35917aa844441bf88b272d
+처형자의 검,25100000,도검,6,1902,0,0,0,0.7,0.5,98,75,1,2,1,N,21,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/34.gif, , ,5b35917aa844441bf88b272e
+처형자의 창,39800000,장창,6,821,0,0,0,0.68,0.55,75,75,1,2,1,N,22,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/135.gif, , ,5b35917aa844441bf88b272f
+언월도,48120000,미늘창,6,783,0,0,0,0.65,0,110,32,1,2,1,N,23,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif, , ,5b35917aa844441bf88b2730
+언월도(경량),48120000,미늘창,6,783,0,0,0,0.65,0,88,75,1,2,1,N,24,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif, , ,5b35917aa844441bf88b2731
+처형자의 해머,68500000,둔기,6,2498,0,0,0,0.63,0.35,150,25,1,2,1,N,25,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4063.gif, , ,5b35917aa844441bf88b2732
+처형자의 도끼,79800000,도끼,6,2106,0,0,0,0.67,0.4,130,35,1,2,1,N,26,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4004.gif, , ,5b35917aa844441bf88b2733
+청룡창,136400000,장창,7,1349,0,0,0,0.65,0.6,99,70,1,2,1,N,27,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4064.gif, , ,5b35917aa844441bf88b2734
+청룡언월도,189000000,미늘창,7,1064,0,0,0,0.6,0,125,32,1,2,1,N,28,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif, , ,5b35917aa844441bf88b2735
+청룡언월도(경량),189000000,미늘창,7,1064,0,0,0,0.6,0,100,70,1,2,1,N,29,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif, , ,5b35917aa844441bf88b2736
+청룡해머,210000000,둔기,7,3321,0,0,0,0.6,0.3,210,23,1,2,1,N,30,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/134.gif, , ,5b35917aa844441bf88b2737
+청룡검,249800000,도검,7,2845,0,0,0,0.67,0.6,135,70,1,2,1,N,31,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4065.gif, , ,5b35917aa844441bf88b2738
+청룡도끼,295300000,도끼,7,3030,0,0,0,0.64,0.45,170,31,1,2,1,N,32,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4062.gif, , ,5b35917aa844441bf88b2739
+노틸러스 스피어,302000000,장창,8,1995,0,0,0,0.62,0.6,130,70,1,2,1,N,33,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/156.gif, , ,5b35917aa844441bf88b273a
+노틸러스 해머,414500000,둔기,8,4578,0,0,0,0.57,0.3,250,19,1,2,1,N,34,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/157.gif, , ,5b35917aa844441bf88b273b
+노틸러스 소드,517000000,도검,8,4225,0,0,0,0.64,0.65,160,70,1,2,1,N,35,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/159.gif, , ,5b35917aa844441bf88b273c
+노틸러스 엑스,578000000,도끼,8,4286,0,0,0,0.61,0.4,215,27,1,2,1,N,36,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/158.gif, , ,5b35917aa844441bf88b273d
+노틸러스 핼버드,598000000,미늘창,8,1425,0,0,0,0.56,0,198,30,1,2,1,N,37,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/160.gif, , ,5b35917aa844441bf88b273e
+노틸러스 핼버드(경량),598000000,미늘창,8,1425,0,0,0,0.56,0,158,70,1,2,1,N,38,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/160.gif, , ,5b35917aa844441bf88b273f
+Deathly Lance,675000000,장창,9,2493,0,0,0,0.61,0.5,180,66,1,2,1,N,39,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/331.gif, , ,5b35917aa844441bf88b2740
+Deathly Hammer,815000000,둔기,9,5952,0,0,0,0.56,0.3,320,17,1,2,1,N,40,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/328.gif, , ,5b35917aa844441bf88b2741
+Deathly Blade,1050000000,도검,9,5446,0,0,0,0.63,0.55,195,66,1,2,1,N,41,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/329.gif, , ,5b35917aa844441bf88b2742
+Deathly Axe,1350000000,도끼,9,5525,0,0,0,0.6,0.5,270,24,1,2,1,N,42,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/330.gif, , ,5b35917aa844441bf88b2743
+Deathly Harvester,1499000000,미늘창,9,1874,0,0,0,0.54,0,220,27,1,2,1,N,43,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4003.gif, , ,5b35917aa844441bf88b2744
+Deathly Harvester(경량),1499000000,미늘창,9,1874,0,0,0,0.54,0,176,66,1,2,1,N,44,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4003.gif, , ,5b35917aa844441bf88b2745
+the Spear of SIN,1610000000,장창,10,3002,0,0,0,0.6,0.55,240,60,1,2,1,N,45,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/388.gif, , ,5b35917aa844441bf88b2746
+the Mace of SIN,2100000000,둔기,10,7068,0,0,0,0.55,0.25,360,16,1,2,1,N,46,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/392.gif, , ,5b35917aa844441bf88b2747
+the Sword of SIN,2850000000,도검,10,6699,0,0,0,0.62,0.5,260,60,1,2,1,N,47,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/401.gif, , ,5b35917aa844441bf88b2748
+the AXE of SIN,3990000000,도끼,10,6536,0,0,0,0.59,0.55,320,21,1,2,1,N,48,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/402.gif, , ,5b35917aa844441bf88b2749
+the Weapon of SIN,4492000000,미늘창,10,2223,0,0,0,0.52,0,320,25,1,2,1,N,49,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/wp3_33.gif, , ,5b35917aa844441bf88b274a
+Gaia Blade,,도검,11,8038,0,0,0,0.63,0.5,338,52,1,2,1,N,50,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2110.gif, , ,5b35917aa844441bf88b274b
+Gaia Hammer,,둔기,11,7916,0,0,0,0.55,0.25,360,16,1,2,1,N,51,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2379.gif, , ,5b35917aa844441bf88b274c
+Gaia Axe,,도끼,11,7449,0,0,0,0.55,0.55,350,20,1,2,1,N,52,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2380.gif, , ,5b35917aa844441bf88b274d
+Gaia Spear,,장창,11,3602,0,0,0,0.58,0.55,312,54,1,2,1,N,53,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2460.gif, , ,5b35917aa844441bf88b274e
+Gaia Halberd,,미늘창,11,2889,0,0,0,0.52,0,307,24,1,2,1,N,54,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2480.gif, , ,5b35917aa844441bf88b274f
+Ultimate Sword,,도검,12,8440,0,0,0,0.7,0.48,350,57,1,2,1,N,55,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Sword_02.gif, , ,5b35917aa844441bf88b2750
+Ultimate Hammer,,둔기,12,8700,0,0,0,0.6,0.3,380,18,1,2,1,N,56,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Hammer_02.gif, , ,5b35917aa844441bf88b2751
+Ultimate Axe,,도끼,12,7800,0,0,0,0.65,0.55,370,22,1,2,1,N,57,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Axe_02.gif, , ,5b35917aa844441bf88b2752
+Ultimate Spear,,장창,12,3750,0,0,0,0.6,0.6,330,54,1,2,1,N,58,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Spear_02.gif, , ,5b35917aa844441bf88b2753
+Ultimate Halberd,,미늘창,12,3300,0,0,0,0.55,0,320,27,1,2,1,N,59,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Halberd_02.gif, , ,5b35917aa844441bf88b2754

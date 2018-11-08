@@ -1,0 +1,2 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+[CL] LR300ML,0,돌격소총,7,2885,0,14,0,0.32,0.55,60,300,1,1,1,Y,63,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4010.gif,N,소형,5b4709f049f2612ca8c8bf93

@@ -1,0 +1,12 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Gaia Rifle,,돌격소총,11,5104,0,13,0,0.25,0.55,160,300,1,1,1,N,103098,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2319.gif,N,소형,5b35915fa844441bf88b270f
+Gaia Rifle/AntiMaterial,,돌격소총,11,1665,0,13,0,0.25,0.55,205,300,1,1,1,N,103099,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2320.gif,N,소형,5b35915fa844441bf88b2710
+Gaia Shotgun,,샷건,11,4182,0,13,0,0.15,0.2,210,29,1,1,1,N,103100,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2339.gif,N,중형,5b35915fa844441bf88b2711
+Gaia SharpShooter,,저격소총,11,36158,0,15,0,0.35,0.6,200,23,1,1,1,N,103101,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2340.gif,N,중형,5b35915fa844441bf88b2712
+Gaia PlasmaThrower,,중화기,11,1565,0,5,0,0.11,0.27,220,300,1,1,1,N,103102,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-590.gif,N,중형,5b35915fa844441bf88b2713
+Ultimate Rifle,,돌격소총,12,6234,0,15,0,0.25,0.65,160,300,1,1,1,N,103103,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_02.gif,N,소형,5b35915fa844441bf88b2714
+Ultimate Rifle/AntiMaterial,,돌격소총,12,1966,0,11,0,0.25,0.55,205,240,1,1,1,N,103104,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_AntiMaterial_03.gif,N,중형,5b35915fa844441bf88b2715
+Ultimate Shotgun,,샷건,12,5123,0,15,0,0.15,0.2,210,29,1,1,1,N,103105,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Shotgun_02.gif,N,중형,5b35915fa844441bf88b2716
+Ultimate Sharpshooter,,저격소총,12,44056,0,17,0,0.35,0.7,200,23,1,1,1,N,103106,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Sharpshooter_02.gif,N,중형,5b35915fa844441bf88b2717
+Ultimate Flamethrower,,중화기,12,1924,0,5,0,0.11,0.3,220,300,1,1,1,N,103107,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_FlameThrower_02.gif,N,중형,5b35915fa844441bf88b2718
+Metallum,,돌격소총,12,4482,0,17,0,0.28,0.67,168,300,1,1,1,N,103108,/resource/img/CB054.gif,N,소형,5b67e9944964f6063c5cec31

@@ -1,0 +1,2 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size
+듀얼 메카닉 벨트 (공방),0,벨트,10,1,180,0,0,0,0,0,0,6, , ,N,1,/resource/img/CB042.gif,N, 

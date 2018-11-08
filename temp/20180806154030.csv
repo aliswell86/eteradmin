@@ -1,0 +1,2 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Metallum,,돌격소총,12,4482,0,17,0,0.28,0.67,168,300,1,1,1,N,108,/resource/img/CB054.gif,,소형,5b67e9944964f6063c5cec31

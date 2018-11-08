@@ -1,0 +1,30 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,accuracy_rate,point_rate,weight,speed,ctype,stype1,stype2,clyn,order,img_src,_id
+[CL] 베라모스 블레이드,0,도검,5,12713,0,27,0.73,0.5,75,75,1,2,1,Y,17,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/31.gif,5b35917aa844441bf88b272a
+[CL] 베라모스 스피어,0,장창,5,5463,0,25,0.7,0.6,68,75,1,2,1,Y,18,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4001.gif,5b35917aa844441bf88b272b
+[CL] 베라모스 메이스,0,둔기,5,13080,0,27,0.65,0.4,108,27,1,2,1,Y,19,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/130.gif,5b35917aa844441bf88b272c
+[CL] 베라모스 엑스,0,도끼,5,10877,0,30,0.69,0.45,95,35,1,2,1,Y,20,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/132.gif,5b35917aa844441bf88b272d
+[CL] 처형자의 검,0,도검,6,25502,0,24,0.7,0.5,98,75,1,2,1,Y,21,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/34.gif,5b35917aa844441bf88b272e
+[CL] 처형자의 창,0,장창,6,11003,0,24,0.68,0.55,75,75,1,2,1,Y,22,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/135.gif,5b35917aa844441bf88b272f
+[CL] 언월도,0,미늘창,6,4619,0,21,0.65,0,110,32,1,2,1,Y,23,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif,5b35917aa844441bf88b2730
+[CL] 처형자의 해머,0,둔기,6,26236,0,20,0.63,0.35,150,25,1,2,1,Y,25,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4063.gif,5b35917aa844441bf88b2732
+[CL] 처형자의 도끼,0,도끼,6,21830,0,27,0.67,0.4,130,35,1,2,1,Y,26,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4004.gif,5b35917aa844441bf88b2733
+[CL] 청룡창,0,장창,7,13774,0,22,0.65,0.6,99,70,1,2,1,Y,27,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4064.gif,5b35917aa844441bf88b2734
+[CL] 청룡언월도,0,미늘창,7,5793,0,17,0.6,0,125,32,1,2,1,Y,28,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4002.gif,5b35917aa844441bf88b2735
+[CL] 청룡해머,0,둔기,7,32814,0,18,0.6,0.3,210,23,1,2,1,Y,30,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/134.gif,5b35917aa844441bf88b2737
+[CL] 청룡검,0,도검,7,31896,0,23,0.67,0.6,135,70,1,2,1,Y,31,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4065.gif,5b35917aa844441bf88b2738
+[CL] 청룡도끼,0,도끼,7,27306,0,24,0.64,0.45,170,31,1,2,1,Y,32,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4062.gif,5b35917aa844441bf88b2739
+[CL] 노틸러스 스피어,0,장창,8,17209,0,21,0.62,0.6,130,70,1,2,1,Y,33,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/156.gif,5b35917aa844441bf88b273a
+[CL] 노틸러스 해머,0,둔기,8,40970,0,16,0.57,0.3,250,19,1,2,1,Y,34,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/157.gif,5b35917aa844441bf88b273b
+[CL] 노틸러스 소드,0,도검,8,39825,0,22,0.64,0.65,160,70,1,2,1,Y,35,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/159.gif,5b35917aa844441bf88b273c
+[CL] 노틸러스 엑스,0,도끼,8,34097,0,23,0.61,0.4,215,27,1,2,1,Y,36,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/158.gif,5b35917aa844441bf88b273d
+[CL] 노틸러스 핼버드,0,미늘창,8,7248,0,16,0.56,0,198,30,1,2,1,Y,37,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/160.gif,5b35917aa844441bf88b273e
+[CL] Deathly Lance,0,장창,9,21531,0,20,0.61,0.5,180,66,1,2,1,Y,39,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/331.gif,5b35917aa844441bf88b2740
+[CL] Deathly Hammer,0,둔기,9,51232,0,16,0.56,0.3,320,17,1,2,1,Y,40,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/328.gif,5b35917aa844441bf88b2741
+[CL] Deathly Blade,0,도검,9,49800,0,22,0.63,0.55,195,66,1,2,1,Y,41,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/329.gif,5b35917aa844441bf88b2742
+[CL] Deathly Axe,0,도끼,9,42640,0,22,0.6,0.5,270,24,1,2,1,Y,42,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/330.gif,5b35917aa844441bf88b2743
+[CL] Deathly Harvester,0,미늘창,9,9079,0,15,0.54,0,220,27,1,2,1,Y,43,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4003.gif,5b35917aa844441bf88b2744
+[CL] the Spear of SIN,0,장창,10,26960,0,20,0.6,0.55,240,60,1,2,1,Y,45,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/388.gif,5b35917aa844441bf88b2746
+[CL] the Mace of SIN,0,둔기,10,64124,0,15,0.55,0.25,360,16,1,2,1,Y,46,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/392.gif,5b35917aa844441bf88b2747
+[CL] the Sword of SIN,0,도검,10,62332,0,22,0.62,0.5,260,60,1,2,1,Y,47,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/401.gif,5b35917aa844441bf88b2748
+[CL] the AXE of SIN,0,도끼,10,53374,0,21,0.59,0.55,320,21,1,2,1,Y,48,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/402.gif,5b35917aa844441bf88b2749
+[CL] the Weapon of SIN,0,미늘창,10,11380,0,14,0.52,0,320,25,1,2,1,Y,49,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/wp3_33.gif,5b35917aa844441bf88b274a

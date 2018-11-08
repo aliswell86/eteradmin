@@ -1,0 +1,6 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,accuracy_rate,point_rate,weight,speed,ctype,stype1,stype2,clyn,order,img_src,illegal,size,_id
+[CL] Deathly Hammer,0,µÐ±â,9,62367,0,16,0.56,0.3,320,17,1,2,1,Y,40,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/328.gif,N,ÁßÇü,5b359607ce52634c605eba09
+[CL] Deathly Axe,0,µµ³¢,9,51874,0,22,0.6,0.5,270,24,1,2,1,Y,42,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/330.gif,N,ÁßÇü,5b359607ce52634c605eba0b
+[CL] the Mace of SIN,0,µÐ±â,10,77253,0,15,0.55,0.25,360,16,1,2,1,Y,46,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/392.gif,N,ÁßÇü,5b359607ce52634c605eba0e
+[CL] the Sword of SIN,0,µµ°Ë,10,62332,0,22,0.62,0.5,260,60,1,2,1,Y,47,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/401.gif,N,¼ÒÇü,5b359607ce52634c605eba0f
+[CL] the AXE of SIN,0,µµ³¢,10,65080,0,21,0.59,0.55,320,21,1,2,1,Y,48,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/402.gif,N,ÁßÇü,5b359607ce52634c605eba10

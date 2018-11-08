@@ -1,0 +1,18 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+ChainSaw Edge(크리티컬용),0,도검,8,42430,0,66,0,0,0,0,0,1,2,1,N,102000,/resource/img/CB001.gif,Y,소형,5b90e1b8a46ae260f8ea7219
+Armament Axe,0,도끼,8,41262,0,44,0,0,0,0,0,1,2,1,N,102001,/resource/img/CB002.gif,Y,중형,5b90e1b8a46ae260f8ea721a
+Western Blade,0,도검,9,39584,0,0,0,0,0,0,0,1,2,1,N,102002,/resource/img/CB007.gif,Y,중형,5b90e1b8a46ae260f8ea721b
+Western Blade/Fire,0,도검,9,32655,0,0,0,0,0,0,0,1,2,1,N,102003,/resource/img/CB007.gif,Y,중형,5b90e1b8a46ae260f8ea721c
+Armament Axe,0,도끼,9,54205,0,0,0,0,0,0,0,1,2,1,N,102004,/resource/img/CB002.gif,Y,중형,5b90e1b8a46ae260f8ea721d
+Moon scythe,0,미늘창,9,8139,0,30,0,0,0,0,0,1,2,1,N,102005,/resource/img/CB010.gif,Y,중형,5b90e1b8a46ae260f8ea721e
+월아,0,장창,9,22932,0,0,0,0,0,0,0,1,2,1,N,102006,/resource/img/CB017.gif,Y,중형,5b90e1b8a46ae260f8ea721f
+Deathly Blade Ignition,0,도검,10,54152,0,22,0,0,0,0,0,1,2,1,N,102007,/resource/img/CB006.gif,Y,중형,5b90e1b8a46ae260f8ea7220
+Brilliance Edge,0,도검,10,55478,0,20,0,0,0,0,0,1,2,1,N,102008,/resource/img/CB013.gif,Y,중형,5b90e1b8a46ae260f8ea7221
+Lightning Sword,0,도검,10,52378,0,50,0,0,0,0,0,1,2,1,N,102009,/resource/img/CB012.gif,Y,중형,5b90e1b8a46ae260f8ea7222
+Death Bloody Axe,0,도끼,10,68008,0,23,0,0,0,0,0,1,2,1,N,102010,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/13.gif,Y,중형,5b90e1b8a46ae260f8ea7223
+Giga Metal HeavyAxe,0,도끼,10,55186,0,23,0,0,0,0,0,1,2,1,N,102011,/resource/img/CB008.gif,Y,대형,5b90e1b8a46ae260f8ea7224
+Battle Crasher,0,둔기,10,61572,0,10,0,0,0,0,0,1,2,1,N,102012,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/13.gif,Y,대형,5b90e1b8a46ae260f8ea7225
+Axis T halberd,0,미늘창,10,14628,0,18,0,0,0,0,0,1,2,1,N,102013,/resource/img/CB004.gif,Y,중형,5b90e1b8a46ae260f8ea7226
+Blue Genocide,0,미늘창,10,11914,0,24,0,0,0,0,0,1,2,1,N,102014,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/13.gif,Y,중형,5b90e1b8a46ae260f8ea7227
+Gungnir,0,장창,10,20317,0,30,0,0,0,0,0,1,2,1,N,102015,/resource/img/CB011.gif,Y,중형,5b90e1b8a46ae260f8ea7228
+Zephyr,0,장창,10,25184,0,0,0,0,0,0,0,1,2,1,N,102016,/resource/img/CB005.gif,Y,중형,5b90e1b8a46ae260f8ea7229

@@ -1,0 +1,110 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(ºÐ·ù),stype1(¿ø±ÙºÎÀ§),stype2(¼ºº°),clyn,order,img_src,illegal,size,_id
+Hammerli ½ºÆ÷Ã÷±ÇÃÑ,500,±ÇÃÑ,1,20,0,0,0,0.8,0.95,28,48,1,1,1,N,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/2,N, ,5b35915fa844441bf88b26ad
+Hammerli ½ºÆ÷Ã÷±â°üÃÑ,1500,±â°üÃÑ,1,4,0,0,0,0.65,0.95,28,300,1,1,1,N,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4,N, ,5b35915fa844441bf88b26ae
+COLT MK4(ÄÝÆ®),3800,±ÇÃÑ,1,30,0,0,0,0.6,0.75,28,48,1,1,1,N,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/10,N, ,5b35915fa844441bf88b26af
+H&K SP89,7800,±â°üÃÑ,1,9,0,0,0,0.55,0.45,18,240,1,1,1,N,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N, ,5b35915fa844441bf88b26b0
+FAMAS(ÆÄ¸¶½º),21000,±â°üÃÑ,2,9,0,0,0,0.6,0.65,26,300,1,1,1,N,4,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/118.gif,N, ,5b35915fa844441bf88b26b1
+56½Ä ¼ÒÃÑ,30000,µ¹°Ý¼ÒÃÑ,2,18,0,0,0,0.43,0.35,33,200,1,1,1,N,5,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4026.gif,N, ,5b35915fa844441bf88b26b2
+Benelli M3(º£³Ú¸®),34000,¼¦°Ç,2,40,0,0,0,0.38,0.25,40,29,1,1,1,N,6,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4032.gif,N, ,5b35915fa844441bf88b26b3
+S&W Model 10/64,35000,±ÇÃÑ,2,42,0,0,0,0.55,0.65,14,70,1,1,1,N,7,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/103.gif,N, ,5b35915fa844441bf88b26b4
+FAMAS SV,43000,±â°üÃÑ,2,11,0,0,0,0.55,0.6,28,300,1,1,1,N,8,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/118.gif,N, ,5b35915fa844441bf88b26b5
+56-1½Ä ¼ÒÃÑ,52000,µ¹°Ý¼ÒÃÑ,2,23,0,0,0,0.4,0.35,35,200,1,1,1,N,9,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/124.gif,N, ,5b35915fa844441bf88b26b6
+Styer SPP 9mm,65000,±â°üÃÑ,2,13,0,0,0,0.45,0.6,20,300,1,1,1,N,10,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4030.gif,N, ,5b35915fa844441bf88b26b7
+M16A1,98000,µ¹°Ý¼ÒÃÑ,2,22,0,0,0,0.5,0.5,40,240,1,1,1,N,11,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/139.gif,N, ,5b35915fa844441bf88b26b8
+SPAS-11(½ºÆÄ½º),120000,¼¦°Ç,3,61,0,0,0,0.33,0.3,45,38,1,1,1,N,12,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/127.gif,N, ,5b35915fa844441bf88b26b9
+MP5K,155000,±â°üÃÑ,3,19,0,0,0,0.45,0.6,25,300,1,1,1,N,13,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4029.gif,N, ,5b35915fa844441bf88b26ba
+AK-47,250000,µ¹°Ý¼ÒÃÑ,3,38,0,0,0,0.35,0.35,45,200,1,1,1,N,14,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4013.gif,N, ,5b35915fa844441bf88b26bb
+BERETTA(º£·¹Å¸),380000,±ÇÃÑ,3,90,0,0,0,0.5,0.65,13,92,1,1,1,N,15,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/244.gif,N, ,5b35915fa844441bf88b26bc
+È­¿°¹æ»ç±â/T50,385000,ÁßÈ­±â,3,33,0,0,0,0.2,0.3,60,300,1,1,1,N,16,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N, ,5b35915fa844441bf88b26bd
+Styer AUG 9mm(½´Å¸ÀÌ¾î),410000,±â°üÃÑ,3,22,0,0,0,0.5,0.75,30,400,1,1,1,N,17,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4028.gif,N, ,5b35915fa844441bf88b26be
+M16A2,550000,µ¹°Ý¼ÒÃÑ,3,41,0,0,0,0.4,0.45,43,240,1,1,1,N,18,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4031.gif,N, ,5b35915fa844441bf88b26bf
+Styer AUG A1(½´Å¸ÀÌ¾î),840000,±â°üÃÑ,3,29,0,0,0,0.45,0.7,33,400,1,1,1,N,19,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/145.gif,N, ,5b35915fa844441bf88b26c0
+AK-74,930000,µ¹°Ý¼ÒÃÑ,3,70,0,0,0,0.32,0.35,48,200,1,1,1,N,20,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4021.gif,N, ,5b35915fa844441bf88b26c1
+K1,1050000,±â°üÃÑ,4,43,0,0,0,0.45,0.65,35,300,1,1,1,N,21,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/133.gif,N, ,5b35915fa844441bf88b26c2
+Remington(·¹¹ÖÅÏ),1440000,¼¦°Ç,4,184,0,0,0,0.3,0.25,60,29,1,1,1,N,22,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/163.gif,N, ,5b35915fa844441bf88b26c3
+M4,1500000,µ¹°Ý¼ÒÃÑ,4,61,0,0,0,0.37,0.45,45,240,1,1,1,N,23,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4016.gif,N, ,5b35915fa844441bf88b26c4
+S&W Model 610,1980000,±ÇÃÑ,4,367,0,0,0,0.42,0.6,18,29,1,1,1,N,24,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/103.gif,N, ,5b35915fa844441bf88b26c5
+MP5/SD,2100000,±â°üÃÑ,4,51,0,0,0,0.45,0.7,42,300,1,1,1,N,25,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/154.gif,N, ,5b35915fa844441bf88b26c6
+HK33KA2,2150000,Àú°Ý¼ÒÃÑ,4,642,0,0,0,0.53,0.8,52,29,1,1,1,N,26,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4014.gif,N, ,5b35915fa844441bf88b26c7
+È­¿°¹æ»ç±â/T80,2845000,ÁßÈ­±â,4,51,0,0,0,0.18,0.25,75,300,1,1,1,N,27,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N, ,5b35915fa844441bf88b26c8
+G3A4,3300000,µ¹°Ý¼ÒÃÑ,4,96,0,0,0,0.32,0.4,52,200,1,1,1,N,28,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4009.gif,N, ,5b35915fa844441bf88b26c9
+HK69-A1,3800000,ÁßÈ­±â,4,50,0,0,0,0.25,0.3,60,19,1,1,1,N,29,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/253.gif,N, ,5b35915fa844441bf88b26ca
+Styer AUG P(½´Å¸ÀÌ¾î),4300000,±â°üÃÑ,4,47,0,0,0,0.44,0.7,35,400,1,1,1,N,30,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4027.gif,N, ,5b35915fa844441bf88b26cb
+M60,4800000,Áö¿øÈ­±â,4,88,0,0,0,0.27,0.25,70,400,1,1,1,N,31,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4022.gif,N, ,5b35915fa844441bf88b26cc
+M4A1 M203,5500000,µ¹°Ý¼ÒÃÑ,5,61,0,0,0,0.37,0.45,75,240,1,1,1,N,32,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/181.gif,N, ,5b35915fa844441bf88b26cd
+K2,6150000,µ¹°Ý¼ÒÃÑ,5,82,0,0,0,0.38,0.5,60,300,1,1,1,N,33,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/104.gif,N, ,5b35915fa844441bf88b26ce
+MP5/A10,7000000,±â°üÃÑ,5,83,0,0,0,0.39,0.65,45,300,1,1,1,N,34,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4025.gif,N, ,5b35915fa844441bf88b26cf
+H&K MSG90,7480000,Àú°Ý¼ÒÃÑ,5,1451,0,0,0,0.48,0.8,63,23,1,1,1,N,35,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4007.gif,N, ,5b35915fa844441bf88b26d0
+È­¿°¹æ»ç±â/Hotdog,8125600,ÁßÈ­±â,5,75,0,0,0,0.18,0.23,90,300,1,1,1,N,36,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N, ,5b35915fa844441bf88b26d1
+Desert Eagle 44(µ¥Á®Æ®ÀÌ±Û),9300000,±ÇÃÑ,5,789,0,0,0,0.33,0.55,35,29,1,1,1,N,37,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N, ,5b35915fa844441bf88b26d2
+M733,9800000,µ¹°Ý¼ÒÃÑ,5,125,0,0,0,0.32,0.45,44,240,1,1,1,N,38,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4017.gif,N, ,5b35915fa844441bf88b26d3
+RPK,11760000,Áö¿øÈ­±â,5,108,0,0,0,0.26,0.4,68,400,1,1,1,N,39,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4012.gif,N, ,5b35915fa844441bf88b26d4
+Western Custom M37,15200000,¼¦°Ç,5,363,0,0,0,0.25,0.25,70,29,1,1,1,N,40,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4033.gif,N, ,5b35915fa844441bf88b26d5
+MP5/40A2,17800000,±â°üÃÑ,5,109,0,0,0,0.4,0.7,52,300,1,1,1,N,41,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/172.gif,N, ,5b35915fa844441bf88b26d6
+Franchi GL40,19800000,ÁßÈ­±â,5,85,0,0,0,0.22,0.3,70,19,1,1,1,N,42,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/253.gif,N, ,5b35915fa844441bf88b26d7
+SIG SG550,21000000,µ¹°Ý¼ÒÃÑ,5,176,0,0,0,0.3,0.4,65,200,1,1,1,N,43,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4015.gif,N, ,5b35915fa844441bf88b26d8
+M240,24800000,Áö¿øÈ­±â,5,167,0,0,0,0.25,0.25,78,400,1,1,1,N,44,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/196.gif,N, ,5b35915fa844441bf88b26d9
+OICW/HEAT(20mmÀ¯Åº),34800000,µ¹°Ý¼ÒÃÑ,6,120,0,0,0,0.3,0.6,83,300,1,1,1,N,45,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N, ,5b35915fa844441bf88b26da
+OICW/AntiTank(20mm´ëÀüÂ÷Åº),34800000,µ¹°Ý¼ÒÃÑ,6,120,0,0,0,0.3,0.6,83,300,1,1,1,N,46,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N, ,5b35915fa844441bf88b26db
+M89/SR,35800000,Àú°Ý¼ÒÃÑ,6,2367,0,0,0,0.38,0.85,65,23,1,1,1,N,47,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/169.gif,N, ,5b35915fa844441bf88b26dc
+Desert Eagle 50AE,42800000,±ÇÃÑ,6,1395,0,0,0,0.33,0.5,40,29,1,1,1,N,48,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N, ,5b35915fa844441bf88b26dd
+FN-P90,48000000,±â°üÃÑ,6,230,0,0,0,0.35,0.8,49,400,1,1,1,N,49,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N, ,5b35915fa844441bf88b26de
+Rapid Blaster,55300000,¼¦°Ç,6,117,0,0,0,0.23,0.25,80,240,1,1,1,N,50,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/256.gif,N, ,5b35915fa844441bf88b26df
+Flame Eater 120cc,62250000,ÁßÈ­±â,6,182,0,0,0,0.15,0.2,105,300,1,1,1,N,51,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N, ,5b35915fa844441bf88b26e0
+G36C,68900000,µ¹°Ý¼ÒÃÑ,6,363,0,0,0,0.32,0.45,60,240,1,1,1,N,52,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4018.gif,N, ,5b35915fa844441bf88b26e1
+AT-1,72500000,ÁßÈ­±â,6,275,0,0,0,0.15,0.55,130,9,1,1,1,N,53,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/220.gif,N, ,5b35915fa844441bf88b26e2
+Remington M1100,76200000,¼¦°Ç,6,726,0,0,0,0.23,0.2,80,29,1,1,1,N,54,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4033.gif,N, ,5b35915fa844441bf88b26e3
+RPKs-74,79800000,Áö¿øÈ­±â,6,254,0,0,0,0.25,0.35,75,400,1,1,1,N,55,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4020.gif,N, ,5b35915fa844441bf88b26e4
+M89/SR Custom Rifle,98000000,Àú°Ý¼ÒÃÑ,7,3071,0,0,0,0.35,0.9,65,23,1,1,1,N,56,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4087.gif,N, ,5b35915fa844441bf88b26e5
+G36,137200000,µ¹°Ý¼ÒÃÑ,7,438,0,0,0,0.28,0.4,75,200,1,1,1,N,57,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4019.gif,N, ,5b35915fa844441bf88b26e6
+K3,172000000,Áö¿øÈ­±â,7,373,0,0,0,0.23,0.25,85,400,1,1,1,N,58,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4023.gif,N, ,5b35915fa844441bf88b26e7
+S&W M29 44Magnum,198600000,±ÇÃÑ,7,1895,0,0,0,0.3,0.45,45,29,1,1,1,N,59,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N, ,5b35915fa844441bf88b26e8
+Remington M870 Super Magnum,208500000,¼¦°Ç,7,1095,0,0,0,0.2,0.2,95,29,1,1,1,N,60,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4071.gif,N, ,5b35915fa844441bf88b26e9
+Flame Eater 240cc,216800000,ÁßÈ­±â,7,297,0,0,0,0.14,0.18,120,300,1,1,1,N,61,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N, ,5b35915fa844441bf88b26ea
+FN P-90 Triple Rail,228600000,±â°üÃÑ,7,345,0,0,0,0.33,0.75,52,400,1,1,1,N,62,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N, ,5b35915fa844441bf88b26eb
+LR300ML,245300000,µ¹°Ý¼ÒÃÑ,7,452,0,0,0,0.32,0.55,60,300,1,1,1,N,63,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4010.gif,N, ,5b35915fa844441bf88b26ec
+G36K AG36,278000000,µ¹°Ý¼ÒÃÑ,7,363,0,0,0,0.28,0.4,100,200,1,1,1,N,64,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4011.gif,N, ,5b35915fa844441bf88b26ed
+Magnum Blaster,291000000,¼¦°Ç,7,196,0,0,0,0.2,0.25,90,240,1,1,1,N,65,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4110.gif,N, ,5b35915fa844441bf88b26ee
+S&W M29L 50Magnum,312000000,±ÇÃÑ,8,2432,0,0,0,0.28,0.4,50,29,1,1,1,N,66,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N, ,5b35915fa844441bf88b26ef
+F2000 Normal Rifle,375000000,µ¹°Ý¼ÒÃÑ,8,585,0,0,0,0.26,0.38,80,240,1,1,1,N,67,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/114.gif,N, ,5b35915fa844441bf88b26f0
+Shooting Star,398000000,ÁßÈ­±â,8,485,0,0,0,0.13,0.3,145,300,1,1,1,N,68,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4094.gif,N, ,5b35915fa844441bf88b26f1
+H&K PSG-1,413000000,Àú°Ý¼ÒÃÑ,8,4243,0,0,0,0.4,0.95,85,23,1,1,1,N,69,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4024.gif,N, ,5b35915fa844441bf88b26f2
+Franchi Law-12,465000000,¼¦°Ç,8,1553,0,0,0,0.18,0.2,120,29,1,1,1,N,70,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/110.gif,N, ,5b35915fa844441bf88b26f3
+H&K UMP45,478000000,±â°üÃÑ,8,618,0,0,0,0.3,0.65,65,300,1,1,1,N,71,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/111.gif,N, ,5b35915fa844441bf88b26f4
+FN M249 Saw,524800000,Áö¿øÈ­±â,8,683,0,0,0,0.18,0.2,175,400,1,1,1,N,72,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/112.gif,N, ,5b35915fa844441bf88b26f5
+F2000/HEAT(20mm À¯Åº),552000000,µ¹°Ý¼ÒÃÑ,8,508,0,0,0,0.26,0.38,110,240,1,1,1,N,73,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N, ,5b35915fa844441bf88b26f6
+F2000/AntiTank(20mm ´ëÀüÂ÷Åº),552000000,µ¹°Ý¼ÒÃÑ,8,508,0,0,0,0.26,0.38,110,240,1,1,1,N,74,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N, ,5b35915fa844441bf88b26f7
+Assault Flame Eater,584000000,µ¹°Ý¼ÒÃÑ,8,485,0,0,0,0.13,0.3,150,300,1,1,1,N,75,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4106.gif,N, ,5b35915fa844441bf88b26f8
+K4,599000000,ÁßÈ­±â,8,360,0,0,0,0.15,0.3,180,109,1,1,1,N,76,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/113.gif,N, ,5b35915fa844441bf88b26f9
+S&W 50Magnum Custom,609000000,±ÇÃÑ,9,2913,0,0,0,0.3,0.55,70,29,1,1,1,N,77,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/342.gif,N, ,5b35915fa844441bf88b26fa
+H&K XM8,698000000,µ¹°Ý¼ÒÃÑ,9,898,0,0,0,0.26,0.6,85,300,1,1,1,N,78,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/337.gif,N, ,5b35915fa844441bf88b26fb
+Meteoric Star,753000000,ÁßÈ­±â,9,615,0,0,0,0.11,0.25,170,300,1,1,1,N,79,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/345.gif,N, ,5b35915fa844441bf88b26fc
+PSG-1 Longrange Custom,820000000,Àú°Ý¼ÒÃÑ,9,5516,0,0,0,0.45,1,95,23,1,1,1,N,80,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/340.gif,N, ,5b35915fa844441bf88b26fd
+Franchi SPAS-12 FullPrice,871200000,¼¦°Ç,9,1848,0,0,0,0.15,0.2,150,29,1,1,1,N,81,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/339.gif,N, ,5b35915fa844441bf88b26fe
+H&K UMP45 Custom,900000000,±â°üÃÑ,9,790,0,0,0,0.3,0.65,70,300,1,1,1,N,82,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/336.gif,N, ,5b35915fa844441bf88b26ff
+FN Minimi Para-SPW,1153000000,Áö¿øÈ­±â,9,879,0,0,0,0.18,0.2,195,400,1,1,1,N,83,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/338.gif,N, ,5b35915fa844441bf88b2700
+H&K XM320/HEAT,1298000000,µ¹°Ý¼ÒÃÑ,9,803,0,0,0,0.26,0.6,120,300,1,1,1,N,84,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N, ,5b35915fa844441bf88b2701
+H&K XM320/AntiTank,1298000000,µ¹°Ý¼ÒÃÑ,9,803,0,0,0,0.26,0.6,120,300,1,1,1,N,85,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N, ,5b35915fa844441bf88b2702
+Assault Shooting Star,1310000000,ÁßÈ­±â,9,615,0,0,0,0.12,0.25,180,300,1,1,1,N,86,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4107.gif,N, ,5b35915fa844441bf88b2703
+AT-4,1499000000,ÁßÈ­±â,9,288,0,0,0,0.12,0.1,210,9,1,1,1,N,87,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/217.gif,N, ,5b35915fa844441bf88b2704
+Desert Eagle 50 Custom,1650000000,±ÇÃÑ,10,3529,0,0,0,0.27,0.5,80,29,1,1,1,N,88,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/420.gif,N, ,5b35915fa844441bf88b2705
+H&K G11,2100000000,±â°ü´ÜÃÑ,10,947,0,0,0,0.28,0.7,95,300,1,1,1,N,89,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/445.gif,N, ,5b35915fa844441bf88b2706
+Meteoric Shower,2610000000,ÁßÈ­±â,10,829,0,0,0,0.1,0.22,200,300,1,1,1,N,90,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/430.gif,N, ,5b35915fa844441bf88b2707
+FN SCAR-H,2970000000,µ¹°Ý¼ÒÃÑ,10,942,0,0,0,0.25,0.35,120,240,1,1,1,N,91,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/422.gif,N, ,5b35915fa844441bf88b2708
+M82A1 Barett,3262000000,Àú°Ý¼ÒÃÑ,10,6895,0,0,0,0.32,0.65,170,23,1,1,1,N,92,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/431.gif,N, ,5b35915fa844441bf88b2709
+Assault Meteoric Star,3450000000,ÁßÈ­±â,10,829,0,0,0,0.11,0.25,215,300,1,1,1,N,93,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/455.gif,N, ,5b35915fa844441bf88b270a
+Franchi Rapter,3610000000,¼¦°Ç,10,2208,0,0,0,0.14,0.2,190,29,1,1,1,N,94,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/444_1.gif,N, ,5b35915fa844441bf88b270b
+FN SCAR-H EGLM/HEAT,3980000000,µ¹°Ý¼ÒÃÑ,10,819,0,0,0,0.25,0.35,165,240,1,1,1,N,95,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N, ,5b35915fa844441bf88b270c
+FN SCAR-H EGLM/AntiTank,3980000000,µ¹°Ý¼ÒÃÑ,10,819,0,0,0,0.25,0.35,165,240,1,1,1,N,96,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N, ,5b35915fa844441bf88b270d
+XM307,4556000000,ÁßÈ­±â,10,199,0,0,0,0.6,0.2,330,80,1,1,1,N,97,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11.png,N, ,5b35915fa844441bf88b270e
+Gaia Rifle,,µ¹°Ý¼ÒÃÑ,11,1440,0,0,0,0.25,0.55,160,300,1,1,1,N,98,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2319.gif,N, ,5b35915fa844441bf88b270f
+Gaia Rifle/AntiMaterial,,µ¹°Ý¼ÒÃÑ,11,1290,0,0,0,0.25,0.55,205,300,1,1,1,N,99,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2320.gif,N, ,5b35915fa844441bf88b2710
+Gaia Shotgun,,¼¦°Ç,11,2605,0,0,0,0.15,0.2,210,29,1,1,1,N,100,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2339.gif,N, ,5b35915fa844441bf88b2711
+Gaia SharpShooter,,Àú°Ý¼ÒÃÑ,11,8895,0,0,0,0.35,0.6,200,23,1,1,1,N,101,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2340.gif,N, ,5b35915fa844441bf88b2712
+Gaia PlasmaThrower,,ÁßÈ­±â,11,1045,0,0,0,0.11,0.27,220,300,1,1,1,N,102,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-590.gif,N, ,5b35915fa844441bf88b2713
+Ultimate Rifle,,µ¹°Ý¼ÒÃÑ,12,1553,0,0,0,0.25,0.65,160,300,1,1,1,N,103,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_02.gif,N, ,5b35915fa844441bf88b2714
+Ultimate Rifle/AntiMaterial,,µ¹°Ý¼ÒÃÑ,12,1320,0,0,0,0.25,0.55,205,240,1,1,1,N,104,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_AntiMaterial_03.gif,N, ,5b35915fa844441bf88b2715
+Ultimate Shotgun,,¼¦°Ç,12,2860,0,0,0,0.15,0.2,210,29,1,1,1,N,105,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Shotgun_02.gif,N, ,5b35915fa844441bf88b2716
+Ultimate Sharpshooter,,Àú°Ý¼ÒÃÑ,12,10140,0,0,0,0.35,0.7,200,23,1,1,1,N,106,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Sharpshooter_02.gif,N, ,5b35915fa844441bf88b2717
+Ultimate Flamethrower,,ÁßÈ­±â,12,1210,0,0,0,0.11,0.3,220,300,1,1,1,N,107,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_FlameThrower_02.gif,N, ,5b35915fa844441bf88b2718
+Metallum,,µ¹°Ý¼ÒÃÑ,12,4482,0,17,0,0.28,0.67,168,300,1,1,1,N,108,/resource/img/CB054.gif,N,¼ÒÇü,5b67e9944964f6063c5cec31

@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+  <div id="wrapper">
+    <% include ../partials/nav %>
+    <div id="page-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="page-header">커스터마이징</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                스펙에 따른 공격력을 확인하는 화면입니다. 장비를 선택해 주세요.<br/>
+                <b>공상이란?</b> 아이템에 의한 공격력상승의 합계입니다. 예) CL전설 24+공토이6+공목3 = 33
+              </div>
+              <!-- /.panel-heading -->
+              <div class="panel-body">
+                <form role="form" id="custom_form" name="custom_form">
+                  <!-- <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-bottom:10px;" onclick="my.get_spec_info();">결과보기</button> -->
+                  <input type="hidden" id="point_hid" name="point_hid" value="0" />
+                  <table class="table table-bordered">
+                    <colgroup>
+                      <col style="width:50%"/>
+                      <col style="width:50%"/>
+                    </colgroup>
+                    <tbody>
+                      <tr>
+                        <td class="ctype1_sel stat_info" colspan="2">
+                          <div style="text-align:right;height:150px;">
+                            <div class="form-group">
+                              <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('1')">무기선택</button>
+                            </div>
+                          </div>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="stat_info" rowspan="2">
+                          <p>
+                            <button type="button" class="btn btn-outline btn-danger" onclick="stat_up_disp('1')">일반</button>
+                            <button type="button" class="btn btn-outline btn-danger" onclick="stat_up_disp('2')">변이</button>
+                            <button type="button" class="btn btn-outline btn-warning" onclick="stat_up_disp1('1')">없음</button>
+                            <button type="button" class="btn btn-outline btn-warning" onclick="stat_up_disp1('2')">공앰</button>
+                            <button type="button" class="btn btn-outline btn-warning" onclick="stat_up_disp1('3')">고급</button>
+                          </p>
+                          <div class="stat_left">
+                            <div style="padding-top:7px;padding-bottom:7px;margin-bottom:10px;"><b>공상</b></div>
+                            <div id="statup1_dv" style="margin-bottom:10px;">일반</div>
+                            <div class="inven_tit">공</div>
+                            <div class="inven_tit">치</div>
+                            <div class="inven_tit">방</div>
+                          </div>
+                          <div class="stat_right">
+                            <input id="dmg_item_up" style="margin-bottom:10px;" class="form-control" placeholder="생명력" name="life_stat" id="life_stat" type="number" value="5">
+                            <div id="statup2_dv" style="margin-bottom:10px;">없음</div>
+                            <div class="inven dmg bold" id="inven_dmg"></div>
+                            <div class="inven cri bold" id="inven_cri">50</div>
+                            <div class="inven dfs bold" id="inven_dfs">0</div>
+                          </div>
+                          <p style="margin-top:180px;">
+                            <!-- <button type="button" class="btn btn-success">타격시뮬레이션</button> -->
+                            <div class="panel-group" id="accordion">
+                              <div class="panel panel-default">
+                                <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">타격시뮬레이션</a>
+                                  </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                    준비중 입니다.
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </p>
+                        </td>
+                        <td class='stat_info' rowspan="2">
+                          <div class="form-group scrollbar height580">
+                            <form role="form" name="stat_form" id="stat_form">
+                              <fieldset>
+                                <div class="stat_left">
+                                  <div class="stat_left_tit">환생</div>
+                                  <div class="stat_left_tit">레벨</div>
+                                  <div class="stat_left_tit2">환생<br/>Point</div>
+                                  <div class="stat_left_tit2">렙업<br/>Point</div>
+                                  <div class="stat_left_tit2">Total<br/>Point</div>
+                                  <div class="stat_left_tit">생명</div>
+                                  <div class="stat_left_tit">체력</div>
+                                  <div class="stat_left_tit">지구</div>
+                                  <div class="stat_left_tit">기술</div>
+                                  <div class="stat_left_tit">지능</div>
+                                  <div class="stat_left_tit">속도</div>
+                                  <div class="stat_left_tit2">해방<br/>공</div>
+                                  <div class="stat_left_tit2">해방<br/>방</div>
+                                  <div class="stat_left_tit2">해방<br/>체</div>
+                                </div>
+                                <div class="stat_right">
+                                  <div class="form-group">
+                                    <select class="form-control" name="restat" id="restat">
+                                        <option value="0">노환</option>
+                                        <option value="1">1환</option>
+                                        <option value="2">2환</option>
+                                        <option value="3">3환</option>
+                                        <option value="4">4환</option>
+                                        <option value="5">5환</option>
+                                    </select>
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="레벨" name="level" id="level" type="number" value="1" maxlength="3">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="환생포인트" name="restat_hid" id="restat_hid" type="number" value="0" disabled>
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="렙업포인트" name="levelstat_hid" id="levelstat_hid" type="number" value="0" disabled>
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="포인트" name="point_stat" id="point_stat" type="number" value="0" disabled>
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="생명력" name="life_stat" id="life_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="체력" name="con_stat" id="con_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="지구" name="dfs_stat" id="dfs_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="기술" name="ski_stat" id="ski_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="지능" name="int_stat" id="int_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="속도" name="spd_stat" id="spd_stat" type="number" value="5">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="공격" name="limit_dmg" id="limit_dmg" type="number" value="0">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="방어" name="limit_dfs" id="limit_dfs" type="number" value="0">
+                                  </div>
+                                  <div class="form-group">
+                                    <input class="form-control" placeholder="체력" name="limit_con" id="limit_con" type="number" value="0">
+                                  </div>
+                                </div>
+                                <!-- Change this to a button or input when using this as a form -->
+                              </fieldset>
+                            </form>
+                          <div>
+                          <!-- <a href="index.html" class="btn btn-lg btn-success btn-block">정보입력</a> -->
+                        </td>
+                      </tr>
+                      <!-- <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('1')">상의</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">하의</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">코트</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">모자</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">신발</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">가발</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">스타킹</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">전신의상</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">코스튬</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">날개</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">토이</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">벨트</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">귀걸이</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">목걸이</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">팔찌</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">반지</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">왼반</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">환생악세</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <button type="button" class="btn btn-primary btn-sm" onclick="my.select_item_init('2')">타로</button>
+                        </td>
+                      </tr> -->
+                    </tbody>
+                  </table>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Modal -->
+       <div class="modal fade" id="selModal" tabindex="-1" role="dialog" aria-labelledby="selModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+           <div class="modal-content">
+             <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+               <h4 class="modal-title" id="selModalLabel"></h4>
+             </div>
+             <div class="modal-body">
+               <div class="row">
+                 <div class="col-lg-12">
+                   <form role="form" id="list_form" name="list_form">
+                     <div class="table-responsive table-bordered">
+                       <table class="table src_bx">
+                         <colgroup>
+                           <col style="width:25%"/>
+                           <col style="width:25%"/>
+                           <col style="width:25%"/>
+                           <col style="width:25%"/>
+                         </colgroup>
+                         <thead>
+                         </thead>
+                         <tbody>
+                           <tr>
+                             <td>
+                               <div class="form-group scrollbar">
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="item_dv1" id="stype12" value="2" checked>근거리
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="item_dv1" id="stype11" value="1">원거리
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="item_dv1" id="stype12" value="4">근거리(불법무기)
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="item_dv1" id="stype11" value="3">원거리(불법무기)
+                                   </label>
+                                 </div>
+                               </div>
+                             </td>
+                             <td>
+                               <div class="form-group scrollbar">
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv1" value="1" checked>기본
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv2" value="2">초보
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv3" value="3">숙련
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv4" value="4">전문
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv5" value="5">장인
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv6" value="6">명인
+                                   </label>
+                                 </div>
+                                 <div class="radio">
+                                   <label>
+                                     <input type="radio" name="up_dv" id="up_dv7" value="7">OT
+                                   </label>
+                                 </div>
+                               </div>
+                             </td>
+                             <td>
+                               <div class="form-group scrollbar" id="max_dv_view">
+                               </div>
+                             </td>
+                             <td>
+                               <div class="form-group scrollbar" id="tier_dv_view">
+                               </div>
+                             </td>
+                           </tr>
+                         </tbody>
+                       </table>
+                     </div>
+                   </form>
+                   <div style="margin-top:15px;"></div>
+                   <div class="table-responsive table-bordered">
+                     <table width="100%" class="table my-list" id="sel_list_table">
+                       <colgroup>
+                         <col style="width:*" />
+                         <col style="width:10%" />
+                         <col style="width:10%" />
+                         <col style="width:10%" />
+                         <col style="width:10%" />
+                       </colgroup>
+                       <thead>
+                         <tr>
+                           <th>이름</th>
+                           <th>공격</th>
+                           <th>치명</th>
+                           <th>방어</th>
+                           <th>체력</th>
+                         </tr>
+                       </thead>
+                       <tbody>
+                       </tbody>
+                     </table>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <div class="modal-footer">
+               <!-- <button type="button" class="btn btn-primary">장비착용</button> -->
+               <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+             </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="statModal" tabindex="-1" role="dialog" aria-labelledby="statModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="statModalLabel">환생정보를 입력해주세요.</h4>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col-lg-12" id="restat_view">
+
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="restat_confirm">확인</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">닫기</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <% include ../partials/script %>
+  <script>
+    jQuery(document).ready(function() {
+      var max_dv_html = "";
+      var tier_dv_html = "";
+      var upnm = "노강";
+      var clyn = "Y";
+      var checked = "";
+      for(var i=0; i<20; i++) {
+        if(i==0) checked = "checked";
+        else checked = "";
+
+        if(i>0&&i<10) {
+          if(clyn=='Y') upnm = "[CL] +"+i;
+          else upnm = "+"+i;
+        }else if(i==10) {
+          if(clyn=='Y') upnm = "[CL-MAX]";
+          else upnm = "[MAX]";
+        }else if(i>10){
+          if(clyn=='Y') upnm = "[CL-MAX] +"+(i-10);
+          else upnm = "[MAX] +"+(i-10);
+        }
+
+        max_dv_html += "<div class='radio'><label><input type='radio' name='max_dv' id='max_dv"+i+"' value='"+i+"' "+checked+">"+upnm+"</label></div>";
+      }
+      $("#max_dv_view").html(max_dv_html);
+
+      tier_dv_html = "<div class='radio'><label><input type='radio' name='item_dv4' id='item_dv40' value='' checked>전체</label></div>";
+      for(var i=1; i<13; i++) {
+        tier_dv_html += "<div class='radio'><label><input type='radio' name='item_dv4' id='item_dv4"+i+"' value='"+i+"'>"+i+" 등급</label></div>";
+      }
+      $("#tier_dv_view").html(tier_dv_html);
+
+      $("input:radio[name=item_dv1]").click(function() {
+        my.select_item("1");
+      });
+      $("input:radio[name=up_dv]").click(function() {
+        my.select_item("1");
+      });
+      $("input:radio[name=max_dv]").click(function() {
+        my.select_item("1");
+      });
+      $("input:radio[name=item_dv4]").click(function() {
+        my.select_item("1");
+      });
+
+      $("#restat").change(function() {
+        var cnt = Number($("#restat").val());
+        var html = "";
+        if(cnt > 0) {
+          for(var i=0; i<cnt; i++) {
+            html += "<div style='float:left;width:8%;height:34px;margin-bottom:5px;text-align:center;vertical-align:middle;'>"+(i+1)+"환</div>";
+            html += "<div style='float:right;width:90%;margin-bottom:5px;'>";
+            html += "<select class='form-control' id='restat_dv"+(i+1)+"'>";
+            html += "<option value='1'>105 ~</option>";
+            html += "<option value='2'>108 ~</option>";
+            html += "<option value='3'>111 ~</option>";
+            html += "<option value='4'>114 ~</option>";
+            html += "<option value='5'>117 ~</option>";
+            html += "<option value='6'>120 ~</option>";
+            html += "<option value='7'>123 ~</option>";
+            html += "<option value='8'>126 ~</option>";
+            html += "</select>";
+            html += "</div>";
+          }
+          $("#restat_view").html(html);
+          $('#statModal').modal('show');
+        }
+      });
+
+      $("#restat_confirm").click(function() {
+        var cnt = Number($("#restat").val());
+        var html = "";
+        var plus_stat = 0;
+
+        if(cnt > 0) {
+          for(var i=0; i<cnt; i++) {
+            var restat_dv = $("#restat_dv"+(i+1)).val();
+            if(restat_dv=="1") plus_stat += 5;
+            else if(restat_dv=="2") plus_stat += 7;
+            else if(restat_dv=="3") plus_stat += 9;
+            else if(restat_dv=="4") plus_stat += 11;
+            else if(restat_dv=="5") plus_stat += 13;
+            else if(restat_dv=="6") plus_stat += 15;
+            else if(restat_dv=="7") plus_stat += 17;
+            else if(restat_dv=="8") plus_stat += 19;
+          }
+        }
+
+        $("#restat_hid").val(plus_stat);
+        var levelstat_hid = Number($("#levelstat_hid").val());
+        var restat_stat = Number($("#restat_hid").val());
+        $("#point_hid").val(String(restat_stat + levelstat_hid));
+        $("#point_stat").val($("#point_hid").val());
+        $('#statModal').modal('hide');
+      });
+
+      $("#level").blur(function() {
+        blur_click_event("level");
+      });
+
+      $("#level").click(function() {
+        $(this).select();
+        blur_click_event("level");
+      });
+
+      $("#level").keyup(function() {
+        level_up_stat();
+      });
+
+      $("#level").mouseup(function() {
+        $(this).select();
+        level_up_stat();
+      });
+
+      $("#life_stat").blur(function() {
+        blur_click_event("life_stat");
+      });
+
+      $("#life_stat").click(function() {
+        blur_click_event("life_stat");
+        $(this).select();
+      });
+
+      $("#con_stat").blur(function() {
+        blur_click_event("con_stat");
+      });
+
+      $("#con_stat").click(function() {
+        blur_click_event("con_stat");
+        $(this).select();
+      });
+
+      $("#dfs_stat").blur(function() {
+        blur_click_event("dfs_stat");
+      });
+
+      $("#dfs_stat").click(function() {
+        blur_click_event("dfs_stat");
+        $(this).select();
+      });
+
+      $("#ski_stat").blur(function() {
+        blur_click_event("ski_stat");
+      });
+
+      $("#ski_stat").click(function() {
+        blur_click_event("ski_stat");
+        $(this).select();
+      });
+
+      $("#int_stat").blur(function() {
+        blur_click_event("int_stat");
+      });
+
+      $("#int_stat").click(function() {
+        blur_click_event("int_stat");
+        $(this).select();
+      });
+
+      $("#spd_stat").blur(function() {
+        blur_click_event("spd_stat");
+      });
+
+      $("#spd_stat").click(function() {
+        blur_click_event("spd_stat");
+        $(this).select();
+      });
+
+      $("#life_stat").keyup(function() {
+        set_stat("life_stat");
+      });
+
+      $("#life_stat").mouseup(function() {
+        $(this).select();
+        set_stat("life_stat");
+      });
+
+      $("#con_stat").keyup(function() {
+        set_stat("con_stat");
+      });
+
+      $("#con_stat").mouseup(function() {
+        $(this).select();
+        set_stat("con_stat");
+      });
+
+      $("#dfs_stat").keyup(function() {
+        set_stat("dfs_stat");
+      });
+
+      $("#dfs_stat").mouseup(function() {
+        $(this).select();
+        set_stat("dfs_stat");
+      });
+
+      $("#ski_stat").keyup(function() {
+        set_stat("ski_stat");
+      });
+
+      $("#ski_stat").mouseup(function() {
+        $(this).select();
+        set_stat("ski_stat");
+      });
+
+      $("#int_stat").keyup(function() {
+        set_stat("int_stat");
+      });
+
+      $("#int_stat").mouseup(function() {
+        $(this).select();
+        set_stat("int_stat");
+      });
+
+      $("#spd_stat").keyup(function() {
+        set_stat("spd_stat");
+      });
+
+      $("#spd_stat").mouseup(function() {
+        $(this).select();
+        set_stat("spd_stat");
+      });
+
+      $("#limit_dmg").blur(function() {
+        blur_click_event("limit_dmg");
+      });
+
+      $("#limit_dmg").click(function() {
+        blur_click_event("limit_dmg");
+        $(this).select();
+      });
+
+      $("#limit_dfs").blur(function() {
+        blur_click_event("limit_dfs");
+      });
+
+      $("#limit_dfs").click(function() {
+        blur_click_event("limit_dfs");
+        $(this).select();
+      });
+
+      $("#limit_con").blur(function() {
+        blur_click_event("limit_con");
+      });
+
+      $("#limit_con").click(function() {
+        blur_click_event("limit_con");
+        $(this).select();
+      });
+
+      $("#dmg_item_up").blur(function() {
+        blur_click_event("dmg_item_up");
+      });
+
+      $("#dmg_item_up").click(function() {
+        blur_click_event("dmg_item_up");
+        $(this).select();
+      });
+
+      level_up_stat();
+      my.getspecinfo();
+    });
+
+    function level_up_stat() {
+      var level = Number($("#level").val());
+      if(level > 255) level = 255;
+      var total_stat = 0;
+      var bonus_stat = 1;
+
+      for(var i=0; i<level; i++) {
+        if(i>=30 && (i%10==0)) {
+          total_stat += (5+bonus_stat);
+          bonus_stat += 1;
+        }else{
+          total_stat += 5;
+        }
+      }
+
+      $("#levelstat_hid").val(total_stat);
+      var levelstat_hid = Number($("#levelstat_hid").val());
+      var restat_stat = Number($("#restat_hid").val());
+      var point_hid = Number($("#point_hid").val());
+      var use_stat = get_use_stat();
+
+      $("#point_hid").val(String(restat_stat + levelstat_hid));
+      if(point_hid < use_stat) {
+        $("#point_stat").val(String(restat_stat + levelstat_hid));
+        $("#life_stat").val("5");
+        $("#con_stat").val("5");
+        $("#dfs_stat").val("5");
+        $("#ski_stat").val("5");
+        $("#int_stat").val("5");
+        $("#spd_stat").val("5");
+      }else{
+        $("#point_stat").val(String(restat_stat + levelstat_hid - use_stat));
+      }
+
+    }
+
+    function get_use_stat() {
+      var init_stat_tot = 30;
+      var life_stat = Number($("#life_stat").val());
+      var con_stat = Number($("#con_stat").val());
+      var dfs_stat = Number($("#dfs_stat").val());
+      var ski_stat = Number($("#ski_stat").val());
+      var int_stat = Number($("#int_stat").val());
+      var spd_stat = Number($("#spd_stat").val());
+      var total_set_stat = life_stat+con_stat+dfs_stat+ski_stat+int_stat+spd_stat-init_stat_tot;
+
+      return total_set_stat;
+    }
+
+    function set_stat(stat_dv) {
+      var init_stat = 5;
+      var cur_stat = Number($("#"+stat_dv).val());
+      var total_set_stat = get_use_stat();
+      var point_hid = Number($("#point_hid").val());
+
+      if(cur_stat >= init_stat) {
+        if(total_set_stat > point_hid) {
+          //최대치셋팅
+          var cur_stat = Number($("#"+stat_dv).val());
+          var max_stat = cur_stat-(total_set_stat-point_hid);
+          var limit_stat = get_limit_stat();
+          if(max_stat > limit_stat) $("#"+stat_dv).val(limit_stat);
+          else $("#"+stat_dv).val(max_stat);
+          $("#point_stat").val("0");
+        }else{
+          $("#point_stat").val(point_hid-total_set_stat);
+        }
+      }
+    }
+
+    function blur_click_event(name) {
+      if(name=="level") {
+        if(Number($("#level").val()) < 1) $("#"+name).val("1");
+        if(Number($("#level").val()) > 254) $("#"+name).val("255");
+
+        var levelstat_hid = Number($("#levelstat_hid").val());
+        var restat_stat = Number($("#restat_hid").val());
+        var point_hid = Number($("#point_hid").val());
+        var use_stat = get_use_stat();
+
+        if(point_hid < use_stat) {
+          $("#point_stat").val(String(restat_stat + levelstat_hid));
+          $("#life_stat").val("5");
+          $("#con_stat").val("5");
+          $("#dfs_stat").val("5");
+          $("#ski_stat").val("5");
+          $("#int_stat").val("5");
+          $("#spd_stat").val("5");
+        }
+      }else if(name.indexOf("limit") > -1 || name=="dmg_item_up") {
+        if(Number($("#"+name).val()) < 0) $("#"+name).val("0");
+        if(Number($("#"+name).val()) > 100) $("#"+name).val(100);
+      }else{
+        var total_limit_stat = get_limit_stat();
+        if(Number($("#"+name).val()) < 5) $("#"+name).val("5");
+        if(Number($("#"+name).val()) > total_limit_stat) $("#"+name).val(total_limit_stat);
+      }
+
+      set_stat(name);
+      my.getspecinfo();
+    }
+
+    function get_limit_stat() {
+      var total_limit_stat = 0;
+      var limit_restat = 0;
+      var limit_stat = 0;
+      var level = Number($("#level").val());
+      var rebirth = Number($("#restat").val());
+      if(level < 101) limit_stat = 350;
+      else if(level >= 101 && level < 105) limit_stat = 400;
+      else if(level >= 105 && level < 110) limit_stat = 415;
+      else if(level >= 110 && level < 115) limit_stat = 430;
+      else if(level >= 115) limit_stat = 450;
+
+      limit_restat = rebirth * 10;
+
+      return limit_restat + limit_stat;
+    }
+
+    function stat_up_disp(dv) {
+      if(dv == "1") {
+        $("#statup1_dv").text("일반");
+      }else if(dv == "2") {
+        $("#statup1_dv").text("변이");
+      }
+
+      my.getspecinfo();
+    }
+
+    function stat_up_disp1(dv) {
+      if(dv == "1") {
+        $("#statup2_dv").text("없음");
+      }else if(dv == "2") {
+        $("#statup2_dv").text("공앰");
+      }else if(dv == "3") {
+        $("#statup2_dv").text("고급공앰");
+      }
+
+      my.getspecinfo();
+    }
+  </script>
+</body>
+</html>

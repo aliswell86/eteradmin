@@ -1,0 +1,3 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+월아,0,장창,9,3744,0,0,0,0,0,0,0,1,2,1,N,102006,/resource/img/CB017.gif,Y,중형,5b90e1b8a46ae260f8ea721f
+Zephyr,0,장창,10,4112,0,0,0,0,0,0,0,1,2,1,N,102016,/resource/img/CB005.gif,Y,중형,5b90e1b8a46ae260f8ea7229

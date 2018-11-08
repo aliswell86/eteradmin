@@ -1,0 +1,12 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Gaia Blade,,도검,11,39821,0,25,0,0.63,0.5,338,1,1,2,1,N,101050,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2110.gif,N,소형,5b35917aa844441bf88b274b
+Gaia Hammer,,둔기,11,26868,0,16,0,0.55,0.25,360,1,1,2,1,N,101051,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2379.gif,N,중형,5b35917aa844441bf88b274c
+Gaia Axe,,도끼,11,40580,0,19,0,0.55,0.55,350,1,1,2,1,N,101052,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2380.gif,N,중형,5b35917aa844441bf88b274d
+Gaia Spear,,장창,11,12823,0,20,0,0.58,0.55,312,1,1,2,1,N,101053,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2460.gif,N,소형,5b35917aa844441bf88b274e
+Gaia Halberd,,미늘창,11,7673,0,14,0,0.52,0,307,1,1,2,1,N,101054,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2480.gif,N,중형,5b35917aa844441bf88b274f
+Ultimate Sword,,도검,12,49784,0,40,0,0.7,0.48,350,1,1,2,1,N,101055,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Sword_02.gif,N,소형,5b35917aa844441bf88b2750
+Ultimate Hammer,,둔기,12,57933,0,20,0,0.6,0.3,380,1,1,2,1,N,101056,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Hammer_02.gif,N,중형,5b35917aa844441bf88b2751
+Ultimate Axe,,도끼,12,49363,0,28,0,0.65,0.55,370,1,1,2,1,N,101057,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Axe_02.gif,N,중형,5b35917aa844441bf88b2752
+Ultimate Spear,,장창,12,13847,0,25,0,0.6,0.6,330,1,1,2,1,N,101058,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Spear_02.gif,N,소형,5b35917aa844441bf88b2753
+Ultimate Halberd,,미늘창,12,9349,0,20,0,0.55,0,320,1,1,2,1,N,101059,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Halberd_02.gif,N,소형,5b35917aa844441bf88b2754
+Heavenly Sword,,도검,12,52357,0,38,0,0.72,0.48,367,57,1,2,1,N,101060,/resource/img/CB053.gif,N,소형,5b67e9944964f6063c5cec32

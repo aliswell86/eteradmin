@@ -1,0 +1,18 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,accuracy_rate,point_rate,weight,speed,ctype,stype1,stype2,clyn,order,img_src,illegal,size,_id
+[CL] ChainSaw Edge(Critical),0,도검,8,50008,0,66,0.27,0.65,0,70,1,2,1,Y,1,/resource/img/CB001.gif,Y,소형,5b48669e0c8b05387043e464
+[CL] Armament Axe,0,도끼,8,48016,0,44,0.55,0.65,0,35,1,2,1,Y,2,/resource/img/CB002.gif,Y,중형,5b48669e0c8b05387043e465
+[CL] Pinkie Hammer Head,0,둔기,8,62060,0,15,0.55,0.65,0,17,1,2,1,Y,3,/resource/img/CB003.gif,Y,대형,5b48669e0c8b05387043e466
+[CL] Axis T halberd,0,미늘창,8,10124,0,18,0.75,0,0,25,1,2,1,Y,4,/resource/img/CB004.gif,Y,중형,5b48669e0c8b05387043e467
+[CL] 암영(暗影),0,장창,8,2254,0,22,0.64,0.65,0,70,1,2,1,Y,5,/resource/img/CB005.gif,Y,소형,5b48669e0c8b05387043e468
+[CL] Deathly Blade Ignition,0,도검,9,51423,0,22,0.62,0.65,0,60,1,2,1,Y,6,/resource/img/CB006.gif,Y,중형,5b48669e0c8b05387043e469
+[CL] Western Blade,0,도검,9,61787,0,0,0.36,0.65,0,46,1,2,1,Y,7,/resource/img/CB007.gif,Y,중형,5b48669e0c8b05387043e46a
+[CL] Giga Metal HeavyAxe,0,도끼,9,52406,0,23,0.63,0.45,0,26,1,2,1,Y,8,/resource/img/CB008.gif,Y,대형,5b48669e0c8b05387043e46b
+[CL] Hammer Head,0,둔기,9,63882,0,15,0.55,0.65,0,17,1,2,1,Y,9,/resource/img/CB009.gif,Y,대형,5b48669e0c8b05387043e46c
+[CL] Moon scythe,0,미늘창,9,9614,0,30,0.54,0,0,27,1,2,1,Y,10,/resource/img/CB010.gif,Y,중형,5b48669e0c8b05387043e46d
+[CL] Gungnir,0,장창,9,5156,0,30,1,1,0,54,1,2,1,Y,11,/resource/img/CB011.gif,Y,중형,5b48669e0c8b05387043e46e
+[CL] Lightning Sword,0,도검,10,61309,0,50,0.3,0.65,0,75,1,2,1,Y,12,/resource/img/CB012.gif,Y,중형,5b48669e0c8b05387043e46f
+[CL] Brilliance Edge,0,도검,10,65363,0,20,0.36,0.65,0,57,1,2,1,Y,13,/resource/img/CB013.gif,Y,중형,5b48669e0c8b05387043e470
+[CL] Photon Axe,0,도끼,10,68880,0,33,0.71,0.5,0,20,1,2,1,Y,14,/resource/img/CB014.gif,Y,중형,5b48669e0c8b05387043e471
+[CL] Bron Crusher,0,둔기,10,77695,0,21,0.67,0.5,0,19,1,2,1,Y,15,/resource/img/CB015.gif,Y,중형,5b48669e0c8b05387043e472
+[CL] Bloody Scythe,0,미늘창,10,11943,0,30,0.54,0,0,27,1,2,1,Y,16,/resource/img/CB016.gif,Y,중형,5b48669e0c8b05387043e473
+[CL] 월아,0,장창,10,3670,0,0,0.62,0.6,0,109,1,2,1,Y,17,/resource/img/CB017.gif,Y,중형,5b48669e0c8b05387043e474

@@ -1,0 +1,2 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Acceler P-47 Custom,0,지원화기,10,3847,0,12,0,0.19,0.21,209,600,1,1,1,N,1,/resource/img/CB055.gif,Y,중형,5b67f22f7a413f79b46af18e

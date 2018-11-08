@@ -1,0 +1,51 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,accuracy_rate,point_rate,weight,speed,ctype,stype1,stype2,clyn,order,img_src,illegal,size,_id
+[CL] M4A1 M203,0,µπ∞›º“√—,5,351,0,14,0.37,0.45,75,240,1,1,1,Y,32,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/181.gif,N,TEST,5b4709f049f2612ca8c8bf7c
+[CL] K2,0,µπ∞›º“√—,5,922,0,16,0.38,0.5,60,300,1,1,1,Y,33,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/104.gif,N,TEST,5b4709f049f2612ca8c8bf7d
+[CL] MP5/A10,0,±‚∞¸√—,5,837,0,15,0.39,0.65,45,300,1,1,1,Y,34,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4025.gif,N,TEST,5b4709f049f2612ca8c8bf7e
+[CL] H&K MSG90,0,¿˙∞›º“√—,5,8203,0,17,0.48,0.8,63,23,1,1,1,Y,35,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4007.gif,N,TEST,5b4709f049f2612ca8c8bf7f
+[CL] »≠ø∞πÊªÁ±‚/Hotdog,0,¡ﬂ»≠±‚,5,390,0,8,0.18,0.23,90,300,1,1,1,Y,36,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N,TEST,5b4709f049f2612ca8c8bf80
+[CL] Desert Eagle 44,0,±«√—,5,4900,0,21,0.33,0.55,35,29,1,1,1,Y,37,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N,TEST,5b4709f049f2612ca8c8bf81
+[CL] RPK,0,¡ˆø¯»≠±‚,5,1177,0,18,0.26,0.4,68,400,1,1,1,Y,39,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4012.gif,N,TEST,5b4709f049f2612ca8c8bf82
+[CL] Western Custom M37,0,º¶∞«,5,1149,0,21,0.25,0.25,70,29,1,1,1,Y,40,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4033.gif,N,TEST,5b4709f049f2612ca8c8bf83
+[CL] Franchi GL40,0,¡ﬂ»≠±‚,5,208,0,8,0.22,0.3,70,19,1,1,1,Y,42,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/253.gif,N,TEST,5b4709f049f2612ca8c8bf84
+[CL] OICW/HEAT,0,µπ∞›º“√—,6,410,0,13,0.3,0.6,83,300,1,1,1,Y,45,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N,TEST,5b4709f049f2612ca8c8bf85
+[CL] OICW/AntiTank,0,µπ∞›º“√—,6,365,0,13,0.3,0.6,83,300,1,1,1,Y,46,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N,TEST,5b4709f049f2612ca8c8bf86
+[CL] M89/SR,0,¿˙∞›º“√—,6,16486,0,16,0.38,0.85,65,23,1,1,1,Y,47,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/169.gif,N,TEST,5b4709f049f2612ca8c8bf87
+[CL] Desert Eagle 50AE,0,±«√—,6,9881,0,19,0.33,0.5,40,29,1,1,1,Y,48,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N,TEST,5b4709f049f2612ca8c8bf88
+[CL] FN-P90,0,±‚∞¸√—,6,1325,0,15,0.35,0.8,49,400,1,1,1,Y,49,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N,TEST,5b4709f049f2612ca8c8bf89
+[CL] Rapid Blaster,0,º¶∞«,6,849,0,18,0.23,0.25,80,240,1,1,1,Y,50,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/256.gif,N,TEST,5b4709f049f2612ca8c8bf8a
+[CL] Flame Eater 120cc,0,¡ﬂ»≠±‚,6,672,0,7,0.15,0.2,105,300,1,1,1,Y,51,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N,TEST,5b4709f049f2612ca8c8bf8b
+[CL] AT-1,0,¡ﬂ»≠±‚,6,486,0,10,0.15,0.55,130,9,1,1,1,Y,53,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/220.gif,N,TEST,5b4709f049f2612ca8c8bf8c
+[CL] RPKs-74,0,¡ˆø¯»≠±‚,6,2434,0,17,0.25,0.35,75,400,1,1,1,Y,55,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4020.gif,N,TEST,5b4709f049f2612ca8c8bf8d
+[CL] M89/SR Custom Rifle,0,¿˙∞›º“√—,7,20628,0,16,0.35,0.9,65,23,1,1,1,Y,56,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4087.gif,N,TEST,5b4709f049f2612ca8c8bf8e
+[CL] S&W M29 44Magnum,0,±«√—,7,12372,0,18,0.3,0.45,45,29,1,1,1,Y,59,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N,TEST,5b4709f049f2612ca8c8bf8f
+[CL] Remington M870 Super Magnum,0,º¶∞«,7,2994,0,18,0.2,0.2,95,29,1,1,1,Y,60,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4071.gif,N,TEST,5b4709f049f2612ca8c8bf90
+[CL] Flame Eater 240cc,0,¡ﬂ»≠±‚,7,860,0,6,0.14,0.18,120,300,1,1,1,Y,61,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N,TEST,5b4709f049f2612ca8c8bf91
+[CL] FN P-90 Triple Rail,0,±‚∞¸√—,7,1677,0,14,0.33,0.75,52,400,1,1,1,Y,62,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N,TEST,5b4709f049f2612ca8c8bf92
+[CL] LR300ML,0,µπ∞›º“√—,7,2427,0,14,0.32,0.55,60,300,1,1,1,Y,63,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4010.gif,N,TEST,5b4709f049f2612ca8c8bf93
+[CL] G36K AG36,0,µπ∞›º“√—,7,676,0,15,0.28,0.4,100,200,1,1,1,Y,64,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4011.gif,N,TEST,5b4709f049f2612ca8c8bf94
+[CL] Magnum Blaster,0,º¶∞«,7,1081,0,17,0.2,0.25,90,240,1,1,1,Y,65,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4110.gif,N,TEST,5b4709f049f2612ca8c8bf95
+[CL] S&W M29L 50Magnum,0,±«√—,8,15460,0,17,0.28,0.4,50,29,1,1,1,Y,66,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N,TEST,5b4709f049f2612ca8c8bf96
+[CL] H&K PSG-1,0,¿˙∞›º“√—,8,25764,0,15,0.4,0.95,85,23,1,1,1,Y,69,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4024.gif,N,TEST,5b4709f049f2612ca8c8bf97
+[CL] Franchi Law-12,0,º¶∞«,8,3756,0,16,0.18,0.2,120,29,1,1,1,Y,70,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/110.gif,N,TEST,5b4709f049f2612ca8c8bf98
+[CL] H&K UMP45,0,±‚∞¸√—,8,2781,0,13,0.3,0.65,65,300,1,1,1,Y,71,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/111.gif,N,TEST,5b4709f049f2612ca8c8bf99
+[CL] F2000/HEAT,0,µπ∞›º“√—,8,864,0,14,0.26,0.38,110,240,1,1,1,Y,73,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,TEST,5b4709f049f2612ca8c8bf9a
+[CL] F2000/AntiTank,0,µπ∞›º“√—,8,798,0,14,0.26,0.38,110,240,1,1,1,Y,74,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,TEST,5b4709f049f2612ca8c8bf9b
+[CL] Assault Flame Eater,0,µπ∞›º“√—,8,925,0,5,0.13,0.3,150,300,1,1,1,Y,75,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4106.gif,N,TEST,5b4709f049f2612ca8c8bf9c
+[CL] K4,0,¡ﬂ»≠±‚,8,734,0,5,0.15,0.3,180,109,1,1,1,Y,76,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/113.gif,N,TEST,5b4709f049f2612ca8c8bf9d
+[CL] S&W 50Magnum Custom,0,±«√—,9,19345,0,17,0.3,0.55,70,29,1,1,1,Y,77,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/342.gif,N,TEST,5b4709f049f2612ca8c8bf9e
+[CL] PSG-1 Longrange Custom,0,¿˙∞›º“√—,9,32225,0,15,0.45,1,95,23,1,1,1,Y,80,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/340.gif,N,TEST,5b4709f049f2612ca8c8bf9f
+[CL] Franchi SPAS-12 FullPrice,0,º¶∞«,9,4715,0,13,0.15,0.2,150,29,1,1,1,Y,81,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/339.gif,N,TEST,5b4709f049f2612ca8c8bfa0
+[CL] H&K UMP45 Custom,0,±‚∞¸√—,9,3497,0,13,0.3,0.65,70,300,1,1,1,Y,82,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/336.gif,N,TEST,5b4709f049f2612ca8c8bfa1
+[CL] H&K XM320/HEAT,0,µπ∞›º“√—,9,1100,0,13,0.26,0.6,120,300,1,1,1,Y,84,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N,TEST,5b4709f049f2612ca8c8bfa2
+[CL] H&K XM320/AntiTank,0,µπ∞›º“√—,9,1020,0,13,0.26,0.6,120,300,1,1,1,Y,85,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N,TEST,5b4709f049f2612ca8c8bfa3
+[CL] Assault Shooting Star,0,¡ﬂ»≠±‚,9,1176,0,5,0.12,0.25,180,300,1,1,1,Y,86,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4107.gif,N,TEST,5b4709f049f2612ca8c8bfa4
+[CL] AT-4,0,¡ﬂ»≠±‚,9,268,0,5,0.12,0.1,210,9,1,1,1,Y,87,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/217.gif,N,TEST,5b4709f049f2612ca8c8bfa5
+[CL] Desert Eagle 50 Custom,0,±«√—,10,24226,0,17,0.27,0.5,80,29,1,1,1,Y,88,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/420.gif,N,TEST,5b4709f049f2612ca8c8bfa6
+[CL] H&K G11,0,±‚∞¸¥‹√—,10,4396,0,12,0.28,0.7,95,300,1,1,1,Y,89,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/445.gif,N,TEST,5b4709f049f2612ca8c8bfa7
+[CL] M82A1 Barett,0,¿˙∞›º“√—,10,40342,0,14,0.32,0.65,170,23,1,1,1,Y,92,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/431.gif,N,TEST,5b4709f049f2612ca8c8bfa8
+[CL] Assault Meteoric Star,0,¡ﬂ»≠±‚,10,1492,0,5,0.11,0.25,215,300,1,1,1,Y,93,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/455.gif,N,TEST,5b4709f049f2612ca8c8bfa9
+[CL] Franchi Rapter,0,º¶∞«,10,5921,0,12,0.14,0.2,190,29,1,1,1,Y,94,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/444_1.gif,N,TEST,5b4709f049f2612ca8c8bfaa
+[CL] FN SCAR-H EGLM/HEAT,0,µπ∞›º“√—,10,1400,0,13,0.25,0.35,165,240,1,1,1,Y,95,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N,TEST,5b4709f049f2612ca8c8bfab
+[CL] FN SCAR-H EGLM/AntiTank,0,µπ∞›º“√—,10,1303,0,13,0.25,0.35,165,240,1,1,1,Y,96,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N,TEST,5b4709f049f2612ca8c8bfac
+[CL] XM307,0,¡ﬂ»≠±‚,10,493,0,5,0.6,0.2,330,80,1,1,1,Y,97,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11.png,N,TEST,5b4709f049f2612ca8c8bfad

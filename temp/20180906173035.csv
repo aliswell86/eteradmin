@@ -1,0 +1,17 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Eraser HMZ Model560,0,지원화기,8,3212,0,8,0,0,0,0,0,1,1,1,N,104000,/resource/img/CB021.gif,Y,대형,5b90e1b8a46ae260f8ea722a
+Triple Barrel,0,샷건,9,6023,0,0,0,0,0,0,0,1,1,1,N,104001,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea722b
+Musketeer,0,샷건,9,50675,0,30,0,0,0,0,0,1,1,1,N,104002,/resource/img/CB018.gif,Y,중형,5b90e1b8a46ae260f8ea722c
+Gyrojet W.I.T.O Custom,0,저격소총,9,50675,0,20,0,0,0,0,0,1,1,1,N,104003,/resource/img/CB019.gif,Y,중형,5b90e1b8a46ae260f8ea722d
+Rain Shooter,0,지원화기,9,5588,0,0,0,0,0,0,0,1,1,1,N,104004,/resource/img/CB027.gif,Y,중형,5b90e1b8a46ae260f8ea722e
+Desert Fox,0,돌격소총,10,2171,0,13,0,0,0,0,0,1,1,1,N,104005,/resource/img/CB026.gif,Y,중형,5b90e1b8a46ae260f8ea722f
+Ravenous,0,돌격소총,10,2171,0,13,0,0,0,0,0,1,1,1,N,104006,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7230
+Vulture J Shotgun,0,샷건,10,7687,0,16,0,0,0,0,0,1,1,1,N,104007,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7231
+Eagle Sniper,0,저격소총,10,54953,0,20,0,0,0,0,0,1,1,1,N,104008,/resource/img/CB031.gif,Y,대형,5b90e1b8a46ae260f8ea7232
+Burster Vulcan,0,샷건,10,7295,0,4,0,0,0,0,0,1,1,1,N,104009,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7233
+Acceler P-47 Custom,0,지원화기,10,5820,0,8,0,0,0,0,0,1,1,1,N,104010,/resource/img/CB055.gif,Y,중형,5b90e1b8a46ae260f8ea7234
+The Devourer,0,중화기,10,2550,0,10,0,0,0,0,0,1,1,1,N,104011,/resource/img/CB030.gif,Y,중형,5b90e1b8a46ae260f8ea7235
+Dragon's Roar,0,중화기,10,1866,0,13,0,0,0,0,0,1,1,1,N,104012,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7236
+RAILGUN - P/TYPE(Replica),0,특수화기,10,1962,0,20,0,0,0,0,0,1,1,1,N,104013,/resource/img/CB028.gif,Y,중형,5b90e1b8a46ae260f8ea7237
+RAILGUN - Red/TYPE,0,특수화기,10,1440,0,10,0,0,0,0,0,1,1,1,N,104014,/resource/img/CB028.gif,Y,중형,5b90e1b8a46ae260f8ea7238
+Laser Blaster,0,특수화기,10,3353,0,15,0,0,0,0,0,1,1,1,N,104015,/resource/img/CB034.gif,Y,중형,5b90e1b8a46ae260f8ea7239

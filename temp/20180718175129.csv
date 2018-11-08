@@ -1,0 +1,5 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size
+[CL] Antibiotic Suit - Class S,0,감염체전용의상,9,0,408,0,0,0,0,0,,2,2,1,Y,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] Antibiotic Suit - Class S,0,감염체전용의상,9,0,408,0,0,0,0,0,,2,2,2,Y,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 
+[CL] Antibiotic Suit - Class SS,0,감염체전용의상,10,0,524,0,0,0,0,0,,2,2,1,Y,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] Antibiotic Suit - Class SS,0,감염체전용의상,10,0,524,0,0,0,0,0,,2,2,2,Y,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 

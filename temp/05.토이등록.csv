@@ -1,0 +1,4 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size
+[토이] 인페르노 마스터피스 (공격),0,토이,10,6,0,0,0,0,0,0,0,5, , ,N,1,/resource/img/CB041.gif,N, 
+[토이] 인페르노 마스터피스 (방어),0,토이,10,0,300,0,0,0,0,0,0,5, , ,N,2,/resource/img/CB041.gif,N, 
+[토이] 인페르노 마스터피스 (체력),0,토이,10,0,0,0,100,0,0,0,0,5, , ,N,3,/resource/img/CB041.gif,N, 

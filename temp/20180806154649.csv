@@ -1,0 +1,5 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(ºÐ·ù),stype1(¿ø±ÙºÎÀ§),stype2(¼ºº°),clyn,order,img_src,illegal,size,_id
+Hammerli ½ºÆ÷Ã÷±ÇÃÑ,500,±ÇÃÑ,1,20,0,0,0,0.8,0.95,28,48,1,1,1,N,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,,5b35915fa844441bf88b26ad
+Hammerli ½ºÆ÷Ã÷±â°üÃÑ,1500,±â°üÃÑ,1,4,0,0,0,0.65,0.95,28,300,1,1,1,N,1,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,,5b35915fa844441bf88b26ae
+COLT MK4(ÄÝÆ®),3800,±ÇÃÑ,1,30,0,0,0,0.6,0.75,28,48,1,1,1,N,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,,5b35915fa844441bf88b26af
+H&K SP89,7800,±â°üÃÑ,1,9,0,0,0,0.55,0.45,18,240,1,1,1,N,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,,5b35915fa844441bf88b26b0

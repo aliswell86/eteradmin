@@ -1,0 +1,20 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,accuracy_rate,point_rate,weight,speed,ctype,stype1,stype2,clyn,order,img_src,illegal,size,_id
+[CL] Musketeer,0,저격소총,8,50931,0,30,0.55,0.65,0,23,1,1,1,Y,1,/resource/img/CB018.gif,Y,중형,5b4c1deb30df4d2d30bd631e
+[CL] Gyrojet W.I.T.O Custom,0,저격소총,8,50931,0,20,0.33,0.55,0,23,1,1,1,Y,2,/resource/img/CB019.gif,Y,중형,5b4c1deb30df4d2d30bd631f
+[CL] H&K XM8 Mk2,0,돌격소총,8,7218,0,13,0.26,0.6,0,300,1,1,1,Y,3,/resource/img/CB020.gif,Y,소형,5b4c1deb30df4d2d30bd6320
+[CL] Erase HMZ Model560,0,지원화기,8,4667,0,8,0.18,0.1,0,600,1,1,1,Y,4,/resource/img/CB021.gif,Y,대형,5b4c1deb30df4d2d30bd6321
+[CL] Lase Blaster-Green,0,특수화기,8,2669,0,15,0.3,0.8,0,80,1,1,1,Y,5,/resource/img/CB022.gif,Y,중형,5b4c1deb30df4d2d30bd6322
+[CL] SPAS-11 Recoilless,0,샷건,8,4456,0,18,0.33,0.8,0,38,1,1,1,Y,6,/resource/img/CB023.gif,Y,중형,5b4c1deb30df4d2d30bd6323
+[CL] Engine BUSTER,0,중화기,8,2236,0,5,0.1,0.22,0,300,1,1,1,Y,7,/resource/img/CB024.gif,Y,중형,5b4c1deb30df4d2d30bd6324
+[CL] Gaia SharpShooter HVAP,0,저격소총,9,65860,0,15,0.45,0.75,0,23,1,1,1,Y,8,/resource/img/CB025.gif,Y,중형,5b4c1deb30df4d2d30bd6325
+[CL] Fennec Fox,0,돌격소총,9,2582,0,13,0.25,0.35,0,240,1,1,1,Y,9,/resource/img/CB026.gif,Y,중형,5b4c1deb30df4d2d30bd6326
+[CL] Rain Shooter,0,지원화기,9,7284,0,0,0.07,0,0,600,1,1,1,Y,10,/resource/img/CB027.gif,Y,대형,5b4c1deb30df4d2d30bd6327
+[CL] RAILGUN - P/TYPE(Replica),0,특수화기,9,1958,0,20,0.66,0.85,0,400,1,1,1,Y,11,/resource/img/CB028.gif,Y,중형,5b4c1deb30df4d2d30bd6328
+[CL] Franchi SPAS-12 Prototype,0,샷건,9,7675,0,13,0.15,0.2,0,29,1,1,1,Y,12,/resource/img/CB029.gif,Y,중형,5b4c1deb30df4d2d30bd6329
+[CL] The Swallow,0,중화기,9,1778,0,10,0.2,0.5,0,66,1,1,1,Y,13,/resource/img/CB030.gif,Y,중형,5b4c1deb30df4d2d30bd632a
+[CL] Eagle Sniper,0,저격소총,10,114166,0,20,0.45,0.75,0,23,1,1,1,Y,14,/resource/img/CB031.gif,Y,대형,5b4c1deb30df4d2d30bd632b
+[CL] H&K XM8 Full Burst,0,돌격소총,10,10234,0,13,0.26,0.6,0,300,1,1,1,Y,15,/resource/img/CB032.gif,Y,소형,5b4c1deb30df4d2d30bd632c
+[CL] Rail Burster,0,지원화기,10,13126,0,13,0.3,0.55,0,400,1,1,1,Y,16,/resource/img/CB033.gif,Y,중형,5b4c1deb30df4d2d30bd632d
+[CL] Lase Blaster-Blue,0,특수화기,10,4169,0,15,0.3,0.8,0,80,1,1,1,Y,17,/resource/img/CB034.gif,Y,중형,5b4c1deb30df4d2d30bd632e
+[CL] Claymore Blaster(Replica),0,샷건,10,4322,0,13,0.13,0.85,0,240,1,1,1,Y,18,/resource/img/CB035.gif,Y,중형,5b4c1deb30df4d2d30bd632f
+[CL] Eternal Flame,0,중화기,10,5839,0,5,0.5,0.22,0,300,1,1,1,Y,19,/resource/img/CB036.gif,Y,중형,5b4c1deb30df4d2d30bd6330

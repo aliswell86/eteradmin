@@ -1,0 +1,9 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size
+[CL] 영웅의 Antibiotic Suit - Class S,0,감염체전용의상,9,28,747,0,0,0,0,0,0,2,2,1,Y,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] 영웅의 Antibiotic Suit - Class SS,0,감염체전용의상,10,28,959,0,0,0,0,0,0,2,2,1,Y,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] 전설의 Antibiotic Suit - Class S,0,감염체전용의상,9,24,747,0,0,0,0,0,0,2,2,1,Y,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] 전설의 Antibiotic Suit - Class SS,0,감염체전용의상,10,24,959,0,0,0,0,0,0,2,2,1,Y,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5116_01.gif, , 
+[CL] 영웅의 Antibiotic Suit - Class S,0,감염체전용의상,9,28,747,0,0,0,0,0,0,2,2,2,Y,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 
+[CL] 영웅의 Antibiotic Suit - Class SS,0,감염체전용의상,10,28,959,0,0,0,0,0,0,2,2,2,Y,2,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 
+[CL] 전설의 Antibiotic Suit - Class S,0,감염체전용의상,9,24,747,0,0,0,0,0,0,2,2,2,Y,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 
+[CL] 전설의 Antibiotic Suit - Class SS,0,감염체전용의상,10,24,959,0,0,0,0,0,0,2,2,2,Y,3,http://image.mgame.com/mgamezzang/games/eternalcity_cms/defense/5117_01.gif, , 

@@ -1,0 +1,10 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size
+[CL] S&W M29L 50Magnum,0,권총,8,18299,0,21,0,0.33,0.55,50,29,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N,소형
+[CL] H&K UMP45,0,기관총,8,3304,0,15,0,0.39,0.65,65,300,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/111.gif,N,소형
+[CL] F2000/HEAT,0,돌격소총,8,1037,0,16,0,0.38,0.5,110,240,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,중형
+[CL] F2000/AntiTank,0,돌격소총,8,964,0,14,0,0.37,0.45,110,240,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,중형
+[CL] Franchi Law-12,0,샷건,8,4457,0,21,0,0.25,0.25,120,29,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/339.gif,N,중형
+[CL] H&K PSG-1,0,저격소총,8,30485,0,17,0,0.48,0.8,85,23,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4024.gif,N,중형
+[CL] Assault Flame Eater,0,돌격소총,8,1134,0,8,0,0.18,0.23,150,300,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4106.gif,N,중형
+[CL] K4,0,중화기,8,883,0,8,0,0.22,0.3,180,109,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/113.gif,N,중형
+[CL] RPK,0,지원화기,5,1367,0,18,0,0.26,0.4,68,400,1,1,1,Y,0,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4012.gif,N,중형
