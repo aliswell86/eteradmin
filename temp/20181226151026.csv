@@ -1,0 +1,2 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+[CL] the Spear of SIN,0,장창,10,18174,0,20,0,0.6,0.55,240,60,1,2,1,Y,105028,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/388.gif,N,소형,5b359607ce52634c605eba0d

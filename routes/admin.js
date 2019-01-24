@@ -1,4 +1,3 @@
-
 var express = require("express");
 var request = require("request");
 var cheerio = require("cheerio");
@@ -7,6 +6,7 @@ var iconv = new Iconv('euc-kr', 'utf-8//translit//ignore');
 var utils  = require("../utils");
 var mongoose   = require("mongoose");
 var EterItem = require("../models/EterItem.js");
+var CacheBox = require("../models/CacheBox.js");
 var Up = require("../models/Up.js");
 var CSV = require("comma-separated-values");
 var multer = require("multer");
@@ -103,20 +103,60 @@ router.post("/setexcelupdate", upload.array("filenm"), function(req, res){
 });
 
 router.post("/set_update", function(req, res) {
-  var update_obj = {};
-  // EterItem.remove({ctype:"3"}).exec(function(err,db_list) {
-  //   if(err) console.log(err);
-  //   console.log(db_list);
-  // });
-  // update_obj.illegal = "TEST";
-  // var stat_hist = [];
-  var stat_hist_obj = {};
+  var ary = [
+    {
+      "packageCode": "7",
+      "packageName": "[CL] 불법무기 랜덤상자",
+      "cost": "130000",
+      "imgSrc": "/resource/img/box/BOX041.gif",
+      "itemInfo": [
+        {"luck":{"luck":"3.05","min":"0","max":"0"},"seq":"1","imgSrc":"/resource/img/CB001.gif","itemName":"[CL] ChainSaw Edge(Critical)","itemDesc":"[CL] ChainSaw Edge(Critical)","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"2","imgSrc":"/resource/img/CB002.gif","itemName":"[CL] Armament Axe","itemDesc":"[CL] Armament Axe","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"3","imgSrc":"/resource/img/CB003.gif","itemName":"[CL] Pinkie Hammer Head","itemDesc":"[CL] Pinkie Hammer Head","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"4","imgSrc":"/resource/img/CB004.gif","itemName":"[CL] Axis T halberd","itemDesc":"[CL] Axis T halberd","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"5","imgSrc":"/resource/img/CB005.gif","itemName":"[CL] 암영(暗影)","itemDesc":"[CL] 암영(暗影)","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"6","imgSrc":"/resource/img/CB006.gif","itemName":"[CL] Deathly Blade Ignition","itemDesc":"[CL] Deathly Blade Ignition","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"7","imgSrc":"/resource/img/CB007.gif","itemName":"[CL] Western Blade","itemDesc":"[CL] Western Blade","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"8","imgSrc":"/resource/img/CB008.gif","itemName":"[CL] Giga Metal HeavyAxe","itemDesc":"[CL] Giga Metal HeavyAxe","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"9","imgSrc":"/resource/img/CB009.gif","itemName":"[CL] Hammer Head","itemDesc":"[CL] Hammer Head","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"10","imgSrc":"/resource/img/CB010.gif","itemName":"[CL] Moon scythe","itemDesc":"[CL] Moon scythe","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"11","imgSrc":"/resource/img/CB011.gif","itemName":"[CL] Gungnir","itemDesc":"[CL] Gungnir","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"12","imgSrc":"/resource/img/CB012.gif","itemName":"[CL] Lightning Sword","itemDesc":"[CL] Lightning Sword","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"13","imgSrc":"/resource/img/CB013.gif","itemName":"[CL] Brilliance Edge","itemDesc":"[CL] Brilliance Edge","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"14","imgSrc":"/resource/img/CB014.gif","itemName":"[CL] Photon Axe","itemDesc":"[CL] Photon Axe","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"15","imgSrc":"/resource/img/CB015.gif","itemName":"[CL] Bron Crusher","itemDesc":"[CL] Bron Crusher","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"16","imgSrc":"/resource/img/CB016.gif","itemName":"[CL] Bloody Scythe","itemDesc":"[CL] Bloody Scythe","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"17","imgSrc":"/resource/img/CB017.gif","itemName":"[CL] 월아","itemDesc":"[CL] 월아","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"18","imgSrc":"/resource/img/CB018.gif","itemName":"[CL] Musketeer","itemDesc":"[CL] Musketeer","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"19","imgSrc":"/resource/img/CB019.gif","itemName":"[CL] Gyrojet W.I.T.O Custom","itemDesc":"[CL] Gyrojet W.I.T.O Custom","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"20","imgSrc":"/resource/img/CB020.gif","itemName":"[CL] H&K XM8 Mk2","itemDesc":"[CL] H&K XM8 Mk2","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"21","imgSrc":"/resource/img/CB021.gif","itemName":"[CL] Erase HMZ Model560","itemDesc":"[CL] Erase HMZ Model560","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"22","imgSrc":"/resource/img/CB022.gif","itemName":"[CL] Lase Blaster-Green","itemDesc":"[CL] Lase Blaster-Green","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"23","imgSrc":"/resource/img/CB023.gif","itemName":"[CL] SPAS-11 Recoilless","itemDesc":"[CL] SPAS-11 Recoilless","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"24","imgSrc":"/resource/img/CB024.gif","itemName":"[CL] Engine BUSTER","itemDesc":"[CL] Engine BUSTER","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"25","imgSrc":"/resource/img/CB025.gif","itemName":"[CL] Gaia SharpShooter HVAP","itemDesc":"[CL] Gaia SharpShooter HVAP","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"26","imgSrc":"/resource/img/CB026.gif","itemName":"[CL] Fennec Fox","itemDesc":"[CL] Fennec Fox","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"27","imgSrc":"/resource/img/CB027.gif","itemName":"[CL] Rain Shooter","itemDesc":"[CL] Rain Shooter","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"28","imgSrc":"/resource/img/CB028.gif","itemName":"[CL] RAILGUN - P/TYPE(Replica)","itemDesc":"[CL] RAILGUN - P/TYPE(Replica)","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"29","imgSrc":"/resource/img/CB029.gif","itemName":"[CL] Franchi SPAS-12 Prototype","itemDesc":"[CL] Franchi SPAS-12 Prototype","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"30","imgSrc":"/resource/img/CB030.gif","itemName":"[CL] The Swallow","itemDesc":"[CL] The Swallow","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"31","imgSrc":"/resource/img/CB031.gif","itemName":"[CL] Eagle Sniper","itemDesc":"[CL] Eagle Sniper","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"32","imgSrc":"/resource/img/CB032.gif","itemName":"[CL] H&K XM8 Full Burst","itemDesc":"[CL] H&K XM8 Full Burst","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"33","imgSrc":"/resource/img/CB033.gif","itemName":"[CL] Rail Burster","itemDesc":"[CL] Rail Burster","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"34","imgSrc":"/resource/img/CB034.gif","itemName":"[CL] Lase Blaster-Blue","itemDesc":"[CL] Lase Blaster-Blue","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"35","imgSrc":"/resource/img/CB035.gif","itemName":"[CL] Claymore Blaster(Replica)","itemDesc":"[CL] Claymore Blaster(Replica)","trscYn":"N"},
+        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"36","imgSrc":"/resource/img/CB036.gif","itemName":"[CL] Eternal Flame","itemDesc":"[CL] Eternal Flame","trscYn":"N"}
+      ]
+    }
+  ]
+  CacheBox.create(ary);
 
+  //-------------------------------------------------
 
-  EterItem.find({}).sort("order").sort("tier").exec(function(err, db_list){
-    for(var i in db_list) {
-      if(db_list[i].ctype == "1" && db_list[i].stype1 == "1" && db_list[i].order == "0") {
-      if(db_list[i].item_nm.indexOf("[CL]") > -1) {
+  // EterItem.find({}).sort("order").sort("tier").exec(function(err, db_list){
+  //   for(var i in db_list) {
+  //     if(db_list[i].ctype == "1" && db_list[i].stype1 == "1" && db_list[i].order == "0") {
+  //     if(db_list[i].item_nm.indexOf("[CL]") > -1) {
         // stat_hist_obj.type = "dmg";
         // stat_hist_obj.update_dt = "20180803";
         // stat_hist_obj.dmg = db_list[i].dmg;
@@ -131,11 +171,11 @@ router.post("/set_update", function(req, res) {
         // EterItem.findOneAndUpdate({_id:db_list[i]._id}, update_obj, function (err, item) {
         //   if(err) console.log(err);
         // });
-        console.log("["+(Number(i)+1)+"]" + db_list[i].item_nm + " | " + db_list[i]._id);
-      }
-      }
-    }
-  });
+        // console.log("["+(Number(i)+1)+"]" + db_list[i].item_nm + " | " + db_list[i]._id);
+  //     }
+  //     }
+  //   }
+  // });
 
   res.render("admin/index");
 });
@@ -353,7 +393,7 @@ var get_in_list = function(req) {
   var in_list = [];
 
   if(req.body.item_dv==1) {
-    in_obj.clyn = req.body.clyn;
+    if(req.body.clyn !=='') in_obj.clyn = req.body.clyn;
     in_obj.ctype = req.body.item_dv;
     in_list.push(in_obj);
 
@@ -364,9 +404,10 @@ var get_in_list = function(req) {
       in_list.push(in_obj4);
     }
     in_obj1.stype1 = req.body.item_dv1;
+    in_obj1.item_dtl_dv = '중화기'; //수동옵션
     in_list.push(in_obj1);
   }else if(req.body.item_dv==2) {
-    in_obj.clyn = req.body.clyn;
+    if(req.body.clyn !=='') in_obj.clyn = req.body.clyn;
     in_obj.ctype = req.body.item_dv;
     in_list.push(in_obj);
 
@@ -377,7 +418,7 @@ var get_in_list = function(req) {
     in_obj2.stype2 = req.body.item_dv3;
     in_list.push(in_obj2);
   }else if(req.body.item_dv==3 || req.body.item_dv==4) {
-    in_obj.clyn = req.body.clyn;
+    if(req.body.clyn !=='') in_obj.clyn = req.body.clyn;
     in_obj.ctype = req.body.item_dv;
     in_list.push(in_obj);
 

@@ -1,0 +1,126 @@
+item_nm,cost,item_dtl_dv,tier,dmg,dfs,cri,con,accuracy_rate,point_rate,weight,speed,ctype(분류),stype1(원근부위),stype2(성별),clyn,order,img_src,illegal,size,_id
+Hammerli 스포츠권총,500,권총,1,20,0,28,0,0.8,0.95,28,48,1,1,1,N,103000,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,소형,5b35915fa844441bf88b26ad
+Hammerli 스포츠기관총,1500,기관총,1,4,0,28,0,0.65,0.95,28,300,1,1,1,N,103001,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,소형,5b35915fa844441bf88b26ae
+COLT MK4(콜트),3800,권총,1,30,0,28,0,0.6,0.75,28,48,1,1,1,N,103002,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,소형,5b35915fa844441bf88b26af
+H&K SP89,7800,기관총,1,9,0,28,0,0.55,0.45,18,240,1,1,1,N,103003,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,N,소형,5b35915fa844441bf88b26b0
+FAMAS(파마스),21000,기관총,2,9,0,23,0,0.6,0.65,26,300,1,1,1,N,103004,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/118.gif,N,중형,5b35915fa844441bf88b26b1
+56식 소총,30000,돌격소총,2,18,0,25,0,0.43,0.35,33,200,1,1,1,N,103005,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4026.gif,N,소형,5b35915fa844441bf88b26b2
+Benelli M3(베넬리),34000,샷건,2,40,0,30,0,0.38,0.25,40,29,1,1,1,N,103006,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4032.gif,N,중형,5b35915fa844441bf88b26b3
+S&W Model 10/64,35000,권총,2,42,0,30,0,0.55,0.65,14,70,1,1,1,N,103007,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/103.gif,N,소형,5b35915fa844441bf88b26b4
+FAMAS SV,43000,기관총,2,11,0,23,0,0.55,0.6,28,300,1,1,1,N,103008,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/118.gif,N,소형,5b35915fa844441bf88b26b5
+56-1식 소총,52000,돌격소총,2,23,0,25,0,0.4,0.35,35,200,1,1,1,N,103009,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/124.gif,N,소형,5b35915fa844441bf88b26b6
+Styer SPP 9mm,65000,기관총,2,13,0,25,0,0.45,0.6,20,300,1,1,1,N,103010,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4030.gif,N,소형,5b35915fa844441bf88b26b7
+M16A1,98000,돌격소총,2,22,0,22,0,0.5,0.5,40,240,1,1,1,N,103011,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/139.gif,N,소형,5b35915fa844441bf88b26b8
+SPAS-11(스파스),120000,샷건,3,61,0,28,0,0.33,0.3,45,38,1,1,1,N,103012,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/127.gif,N,소형,5b35915fa844441bf88b26b9
+MP5K,155000,기관총,3,19,0,24,0,0.45,0.6,25,300,1,1,1,N,103013,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4029.gif,N,소형,5b35915fa844441bf88b26ba
+AK-47,250000,돌격소총,3,38,0,23,0,0.35,0.35,45,200,1,1,1,N,103014,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4013.gif,N,중형,5b35915fa844441bf88b26bb
+BERETTA(베레타),380000,권총,3,90,0,28,0,0.5,0.65,13,92,1,1,1,N,103015,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/244.gif,N,중형,5b35915fa844441bf88b26bc
+화염방사기/T50,385000,중화기,3,33,0,10,0,0.2,0.3,60,300,1,1,1,N,103016,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N,중형,5b35915fa844441bf88b26bd
+Styer AUG 9mm(슈타이어),410000,기관총,3,22,0,22,0,0.5,0.75,30,400,1,1,1,N,103017,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4028.gif,N,소형,5b35915fa844441bf88b26be
+M16A2,550000,돌격소총,3,41,0,21,0,0.4,0.45,43,240,1,1,1,N,103018,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4031.gif,N,소형,5b35915fa844441bf88b26bf
+Styer AUG A1(슈타이어),840000,기관총,3,29,0,22,0,0.45,0.7,33,400,1,1,1,N,103019,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/145.gif,N,소형,5b35915fa844441bf88b26c0
+AK-74,930000,돌격소총,3,70,0,23,0,0.32,0.35,48,200,1,1,1,N,103020,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4021.gif,N,중형,5b35915fa844441bf88b26c1
+K1,1050000,기관총,4,43,0,22,0,0.45,0.65,35,300,1,1,1,N,103021,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/133.gif,N,소형,5b35915fa844441bf88b26c2
+Remington(레밍턴),1440000,샷건,4,184,0,26,0,0.3,0.25,60,29,1,1,1,N,103022,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/163.gif,N,중형,5b35915fa844441bf88b26c3
+M4,1500000,돌격소총,4,61,0,18,0,0.37,0.45,45,240,1,1,1,N,103023,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4016.gif,N,중형,5b35915fa844441bf88b26c4
+S&W Model 610,1980000,권총,4,367,0,24,0,0.42,0.6,18,29,1,1,1,N,103024,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/103.gif,N,소형,5b35915fa844441bf88b26c5
+MP5/SD,2100000,기관총,4,51,0,18,0,0.45,0.7,42,300,1,1,1,N,103025,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/154.gif,N,소형,5b35915fa844441bf88b26c6
+HK33KA2,2150000,저격소총,4,642,0,20,0,0.53,0.8,52,29,1,1,1,N,103026,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4014.gif,N,중형,5b35915fa844441bf88b26c7
+화염방사기/T80,2845000,중화기,4,51,0,10,0,0.18,0.25,75,300,1,1,1,N,103027,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N,중형,5b35915fa844441bf88b26c8
+G3A4,3300000,돌격소총,4,96,0,22,0,0.32,0.4,52,200,1,1,1,N,103028,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4009.gif,N,중형,5b35915fa844441bf88b26c9
+HK69-A1,3800000,중화기,4,50,0,10,0,0.25,0.3,60,19,1,1,1,N,103029,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/253.gif,N,중형,5b35915fa844441bf88b26ca
+Styer AUG P(슈타이어),4300000,기관총,4,47,0,18,0,0.44,0.7,35,400,1,1,1,N,103030,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4027.gif,N,소형,5b35915fa844441bf88b26cb
+M60,4800000,지원화기,4,88,0,18,0,0.27,0.25,70,400,1,1,1,N,103031,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4022.gif,N,중형,5b35915fa844441bf88b26cc
+M4A1 M203,5500000,돌격소총,5,133,0,14,0,0.37,0.45,75,240,1,1,1,N,103032,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/181.gif,N,중형,5b35915fa844441bf88b26cd
+K2,6150000,돌격소총,5,497,0,16,0,0.38,0.5,60,300,1,1,1,N,103033,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/104.gif,N,중형,5b35915fa844441bf88b26ce
+MP5/A10,7000000,기관총,5,447,0,15,0,0.39,0.65,45,300,1,1,1,N,103034,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4025.gif,N,소형,5b35915fa844441bf88b26cf
+H&K MSG90,7480000,저격소총,5,4689,0,17,0,0.48,0.8,63,23,1,1,1,N,103035,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4007.gif,N,중형,5b35915fa844441bf88b26d0
+화염방사기/Hotdog,8125600,중화기,5,190,0,8,0,0.18,0.23,90,300,1,1,1,N,103036,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/142.gif,N,중형,5b35915fa844441bf88b26d1
+Desert Eagle 44(데져트이글),9300000,권총,5,2788,0,21,0,0.33,0.55,35,29,1,1,1,N,103037,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N,소형,5b35915fa844441bf88b26d2
+M733,9800000,돌격소총,5,641,0,15,0,0.32,0.45,44,240,1,1,1,N,103038,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4017.gif,N,소형,5b35915fa844441bf88b26d3
+RPK,11760000,지원화기,5,643,0,18,0,0.26,0.4,68,400,1,1,1,N,103039,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4012.gif,N,중형,5b35915fa844441bf88b26d4
+Western Custom M37,15200000,샷건,5,627,0,21,0,0.25,0.25,70,29,1,1,1,N,103040,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4033.gif,N,중형,5b35915fa844441bf88b26d5
+MP5/40A2,17800000,기관총,5,447,0,15,0,0.4,0.7,52,300,1,1,1,N,103041,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/172.gif,N,소형,5b35915fa844441bf88b26d6
+Franchi GL40,19800000,중화기,5,108,0,8,0,0.22,0.3,70,19,1,1,1,N,103042,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/253.gif,N,중형,5b35915fa844441bf88b26d7
+SIG SG550,21000000,돌격소총,5,612,0,20,0,0.3,0.4,65,200,1,1,1,N,103043,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4015.gif,N,중형,5b35915fa844441bf88b26d8
+M240,24800000,지원화기,5,643,0,16,0,0.25,0.25,78,400,1,1,1,N,103044,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/196.gif,N,중형,5b35915fa844441bf88b26d9
+OICW/HEAT,34800000,돌격소총,6,313,0,13,0,0.3,0.6,83,300,1,1,1,N,103045,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N,중형,5b35915fa844441bf88b26da
+OICW/AntiTank,34800000,돌격소총,6,257,0,13,0,0.3,0.6,83,300,1,1,1,N,103046,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/205.gif,N,중형,5b35915fa844441bf88b26db
+M89/SR,35800000,저격소총,6,11725,0,16,0,0.38,0.85,65,23,1,1,1,N,103047,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/169.gif,N,중형,5b35915fa844441bf88b26dc
+Desert Eagle 50AE,42800000,권총,6,7018,0,19,0,0.33,0.5,40,29,1,1,1,N,103048,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/247.gif,N,중형,5b35915fa844441bf88b26dd
+FN-P90,48000000,기관총,6,1103,0,15,0,0.35,0.8,49,400,1,1,1,N,103049,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N,소형,5b35915fa844441bf88b26de
+Rapid Blaster,55300000,샷건,6,469,0,18,0,0.23,0.25,80,240,1,1,1,N,103050,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/256.gif,N,중형,5b35915fa844441bf88b26df
+Flame Eater 120cc,62250000,중화기,6,456,0,7,0,0.15,0.2,105,300,1,1,1,N,103051,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N,중형,5b35915fa844441bf88b26e0
+G36C,68900000,돌격소총,6,2031,0,15,0,0.32,0.45,60,240,1,1,1,N,103052,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4018.gif,N,소형,5b35915fa844441bf88b26e1
+AT-1,72500000,중화기,6,275,0,10,0,0.15,0.55,130,9,1,1,1,N,103053,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/220.gif,N,중형,5b35915fa844441bf88b26e2
+Remington M1100,76200000,샷건,6,1374,0,21,0,0.23,0.2,80,29,1,1,1,N,103054,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4033.gif,N,중형,5b35915fa844441bf88b26e3
+RPKs-74,79800000,지원화기,6,1897,0,17,0,0.25,0.35,75,400,1,1,1,N,103055,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4020.gif,N,중형,5b35915fa844441bf88b26e4
+M89/SR Custom Rifle,98000000,저격소총,7,14317,0,16,0,0.35,0.9,65,23,1,1,1,N,103056,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4087.gif,N,중형,5b35915fa844441bf88b26e5
+G36,137200000,돌격소총,7,2494,0,15,0,0.28,0.4,75,200,1,1,1,N,103057,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4019.gif,N,중형,5b35915fa844441bf88b26e6
+K3,172000000,지원화기,7,2331,0,15,0,0.23,0.25,85,400,1,1,1,N,103058,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4023.gif,N,중형,5b35915fa844441bf88b26e7
+S&W M29 44Magnum,198600000,권총,7,8577,0,18,0,0.3,0.45,45,29,1,1,1,N,103059,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N,소형,5b35915fa844441bf88b26e8
+Remington M870 Super Magnum,208500000,샷건,7,1737,0,18,0,0.2,0.2,95,29,1,1,1,N,103060,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4071.gif,N,중형,5b35915fa844441bf88b26e9
+Flame Eater 240cc,216800000,중화기,7,573,0,6,0,0.14,0.18,120,300,1,1,1,N,103061,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4093-2.gif,N,중형,5b35915fa844441bf88b26ea
+FN P-90 Triple Rail,228600000,기관총,7,1363,0,14,0,0.33,0.75,52,400,1,1,1,N,103062,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4006.gif,N,소형,5b35915fa844441bf88b26eb
+LR300ML,245300000,돌격소총,7,2494,0,14,0,0.32,0.55,60,300,1,1,1,N,103063,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4010.gif,N,소형,5b35915fa844441bf88b26ec
+G36K AG36,278000000,돌격소총,7,694,0,15,0,0.28,0.4,100,200,1,1,1,N,103064,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4011.gif,N,소형,5b35915fa844441bf88b26ed
+Magnum Blaster,291000000,샷건,7,607,0,17,0,0.2,0.25,90,240,1,1,1,N,103065,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4110.gif,N,중형,5b35915fa844441bf88b26ee
+S&W M29L 50Magnum,312000000,권총,8,11648,0,17,0,0.28,0.4,50,29,1,1,1,N,103066,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4105.gif,N,소형,5b35915fa844441bf88b26ef
+F2000 Normal Rifle,375000000,돌격소총,8,2710,0,14,0,0.26,0.38,80,240,1,1,1,N,103067,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/114.gif,N,중형,5b35915fa844441bf88b26f0
+Shooting Star,398000000,중화기,8,805,0,5,0,0.13,0.3,145,300,1,1,1,N,103068,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4094.gif,N,중형,5b35915fa844441bf88b26f1
+H&K PSG-1,413000000,저격소총,8,19425,0,15,0,0.4,0.95,85,23,1,1,1,N,103069,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4024.gif,N,중형,5b35915fa844441bf88b26f2
+Franchi Law-12,465000000,샷건,8,2214,0,16,0,0.18,0.2,120,29,1,1,1,N,103070,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/110.gif,N,중형,5b35915fa844441bf88b26f3
+H&K UMP45,478000000,기관총,8,2471,0,13,0,0.3,0.65,65,300,1,1,1,N,103071,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/111.gif,N,중형,5b35915fa844441bf88b26f4
+FN M249 SAW,524800000,지원화기,8,3187,0,10,0,0.18,0.2,175,400,1,1,1,N,103072,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/112.gif,N,중형,5b35915fa844441bf88b26f5
+F2000/HEAT,552000000,돌격소총,8,759,0,14,0,0.26,0.38,110,240,1,1,1,N,103073,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,중형,5b35915fa844441bf88b26f6
+F2000/AntiTank,552000000,돌격소총,8,845,0,14,0,0.26,0.38,110,240,1,1,1,N,103074,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4008.gif,N,중형,5b35915fa844441bf88b26f7
+Assault Flame Eater,584000000,돌격소총,8,696,0,5,0,0.13,0.3,150,300,1,1,1,N,103075,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4106.gif,N,중형,5b35915fa844441bf88b26f8
+K4,599000000,중화기,8,554,0,5,0,0.15,0.3,180,109,1,1,1,N,103076,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/113.gif,N,중형,5b35915fa844441bf88b26f9
+S&W 50Magnum Custom,609000000,권총,9,14840,0,17,0,0.3,0.55,70,29,1,1,1,N,103077,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/342.gif,N,소형,5b35915fa844441bf88b26fa
+H&K XM8,698000000,돌격소총,9,4357,0,13,0,0.26,0.6,85,300,1,1,1,N,103078,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/337.gif,N,소형,5b35915fa844441bf88b26fb
+Meteoric Star,753000000,중화기,9,1046,0,5,0,0.11,0.25,170,300,1,1,1,N,103079,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/345.gif,N,중형,5b35915fa844441bf88b26fc
+PSG-1 Longrange Custom,820000000,저격소총,9,24733,0,15,0,0.45,1,95,23,1,1,1,N,103080,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/340.gif,N,중형,5b35915fa844441bf88b26fd
+Franchi SPAS-12 FullPrice,871200000,샷건,9,2838,0,13,0,0.15,0.2,150,29,1,1,1,N,103081,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/339.gif,N,중형,5b35915fa844441bf88b26fe
+H&K UMP45 Custom,900000000,기관총,9,3166,0,13,0,0.3,0.65,70,300,1,1,1,N,103082,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/336.gif,N,소형,5b35915fa844441bf88b26ff
+FN Minimi Para-SPW,1153000000,지원화기,9,4076,0,10,0,0.18,0.2,195,400,1,1,1,N,103083,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/338.gif,N,중형,5b35915fa844441bf88b2700
+H&K XM320/HEAT,1298000000,돌격소총,9,1265,0,13,0,0.26,0.6,120,300,1,1,1,N,103084,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N,소형,5b35915fa844441bf88b2701
+H&K XM320/AntiTank,1298000000,돌격소총,9,1396,0,13,0,0.26,0.6,120,300,1,1,1,N,103085,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/346.gif,N,소형,5b35915fa844441bf88b2702
+Assault Shooting Star,1310000000,중화기,9,906,0,5,0,0.12,0.25,180,300,1,1,1,N,103086,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/4107.gif,N,중형,5b35915fa844441bf88b2703
+AT-4,1499000000,중화기,9,288,0,5,0,0.12,0.1,210,9,1,1,1,N,103087,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/217.gif,N,중형,5b35915fa844441bf88b2704
+Desert Eagle 50 Custom,1650000000,권총,10,17278,0,17,0,0.27,0.5,80,29,1,1,1,N,103088,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/420.gif,N,소형,5b35915fa844441bf88b2705
+H&K G11,2100000000,기관총,10,3697,0,12,0,0.28,0.7,95,300,1,1,1,N,103089,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/445.gif,N,소형,5b35915fa844441bf88b2706
+Meteoric Shower,2610000000,중화기,10,1230,0,5,0,0.1,0.22,200,300,1,1,1,N,103090,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/430.gif,N,중형,5b35915fa844441bf88b2707
+FN SCAR-H,2970000000,돌격소총,10,4050,0,11,0,0.25,0.35,120,240,1,1,1,N,103091,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/422.gif,N,중형,5b35915fa844441bf88b2708
+M82A1 Barett,3262000000,저격소총,10,28788,0,14,0,0.32,0.65,170,23,1,1,1,N,103092,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/431.gif,N,중형,5b35915fa844441bf88b2709
+Assault Meteoric Star,3450000000,중화기,10,1067,0,5,0,0.11,0.25,215,300,1,1,1,N,103093,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/455.gif,N,중형,5b35915fa844441bf88b270a
+Franchi Rapter,3610000000,샷건,10,3330,0,12,0,0.14,0.2,190,29,1,1,1,N,103094,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/444_1.gif,N,중형,5b35915fa844441bf88b270b
+FN SCAR-H EGLM/HEAT,3980000000,돌격소총,10,1165,0,13,0,0.25,0.35,165,240,1,1,1,N,103095,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N,중형,5b35915fa844441bf88b270c
+FN SCAR-H EGLM/AntiTank,3980000000,돌격소총,10,1262,0,13,0,0.25,0.35,165,240,1,1,1,N,103096,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/451_1.gif,N,중형,5b35915fa844441bf88b270d
+XM307,4556000000,중화기,10,246,0,5,0,0.6,0.2,330,80,1,1,1,N,103097,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11.png,N,중형,5b35915fa844441bf88b270e
+Gaia Rifle,,돌격소총,11,5104,0,13,0,0.25,0.55,160,300,1,1,1,N,103098,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2319.gif,N,소형,5b35915fa844441bf88b270f
+Gaia Rifle/AntiMaterial,,돌격소총,11,1665,0,13,0,0.25,0.55,205,300,1,1,1,N,103099,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2320.gif,N,소형,5b35915fa844441bf88b2710
+Gaia Shotgun,,샷건,11,4182,0,13,0,0.15,0.2,210,29,1,1,1,N,103100,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2339.gif,N,중형,5b35915fa844441bf88b2711
+Gaia SharpShooter,,저격소총,11,36158,0,15,0,0.35,0.6,200,23,1,1,1,N,103101,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-2340.gif,N,중형,5b35915fa844441bf88b2712
+Gaia PlasmaThrower,,중화기,11,1565,0,5,0,0.11,0.27,220,300,1,1,1,N,103102,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/11-590.gif,N,중형,5b35915fa844441bf88b2713
+Ultimate Rifle,,돌격소총,12,6234,0,15,0,0.25,0.65,160,300,1,1,1,N,103103,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_02.gif,N,소형,5b35915fa844441bf88b2714
+Ultimate Rifle/AntiMaterial,,돌격소총,12,1966,0,11,0,0.25,0.55,205,240,1,1,1,N,103104,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Rifle_AntiMaterial_03.gif,N,중형,5b35915fa844441bf88b2715
+Ultimate Shotgun,,샷건,12,5123,0,15,0,0.15,0.2,210,29,1,1,1,N,103105,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Shotgun_02.gif,N,중형,5b35915fa844441bf88b2716
+Ultimate Sharpshooter,,저격소총,12,44056,0,17,0,0.35,0.7,200,23,1,1,1,N,103106,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_Sharpshooter_02.gif,N,중형,5b35915fa844441bf88b2717
+Ultimate Flamethrower,,중화기,12,1924,0,5,0,0.11,0.3,220,300,1,1,1,N,103107,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/Ultimate_FlameThrower_02.gif,N,중형,5b35915fa844441bf88b2718
+Metallum,,돌격소총,12,4482,0,17,0,0.28,0.67,168,300,1,1,1,N,103108,/resource/img/CB054.gif,N,소형,5b67e9944964f6063c5cec31
+Eraser HMZ Model560,0,지원화기,8,3212,0,8,0,0,0,0,600,1,1,1,N,104000,/resource/img/CB021.gif,Y,대형,5b90e1b8a46ae260f8ea722a
+Triple Barrel,0,샷건,9,6023,0,0,0,0,0,0,29,1,1,1,N,104001,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea722b
+Musketeer,0,샷건,9,50675,0,30,0,0,0,0,23,1,1,1,N,104002,/resource/img/CB018.gif,Y,중형,5b90e1b8a46ae260f8ea722c
+Gyrojet W.I.T.O Custom,0,저격소총,9,50675,0,20,0,0,0,0,23,1,1,1,N,104003,/resource/img/CB019.gif,Y,중형,5b90e1b8a46ae260f8ea722d
+Rain Shooter,0,지원화기,9,5588,0,0,0,0,0,0,600,1,1,1,N,104004,/resource/img/CB027.gif,Y,중형,5b90e1b8a46ae260f8ea722e
+Desert Fox,0,돌격소총,10,2171,0,13,0,0,0,0,240,1,1,1,N,104005,/resource/img/CB026.gif,Y,중형,5b90e1b8a46ae260f8ea722f
+Ravenous,0,돌격소총,10,2171,0,13,0,0,0,0,240,1,1,1,N,104006,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7230
+Vulture J Shotgun,0,샷건,10,7687,0,16,0,0,0,0,29,1,1,1,N,104007,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7231
+Eagle Sniper,0,저격소총,10,54953,0,20,0,0,0,0,23,1,1,1,N,104008,/resource/img/CB031.gif,Y,대형,5b90e1b8a46ae260f8ea7232
+Burster Vulcan,0,샷건,10,7295,0,4,0,0,0,0,600,1,1,1,N,104009,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7233
+Acceler P-47 Custom,0,지원화기,10,5820,0,8,0,0,0,0,600,1,1,1,N,104010,/resource/img/CB055.gif,Y,중형,5b90e1b8a46ae260f8ea7234
+The Devourer,0,중화기,10,2550,0,10,0,0,0,0,66,1,1,1,N,104011,/resource/img/CB030.gif,Y,중형,5b90e1b8a46ae260f8ea7235
+Dragon's Roar,0,중화기,10,1866,0,13,0,0,0,0,300,1,1,1,N,104012,http://image.mgame.com/mgamezzang/games/eternalcity_cms/attack/115.gif,Y,중형,5b90e1b8a46ae260f8ea7236
+RAILGUN - P/TYPE(Replica),0,특수화기,10,1962,0,20,0,0,0,0,400,1,1,1,N,104013,/resource/img/CB028.gif,Y,중형,5b90e1b8a46ae260f8ea7237
+RAILGUN - Red/TYPE,0,특수화기,10,1440,0,10,0,0,0,0,400,1,1,1,N,104014,/resource/img/CB028.gif,Y,중형,5b90e1b8a46ae260f8ea7238
+Laser Blaster,0,특수화기,10,3353,0,15,0,0,0,0,80,1,1,1,N,104015,/resource/img/CB034.gif,Y,중형,5b90e1b8a46ae260f8ea7239
