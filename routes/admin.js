@@ -7,6 +7,7 @@ var utils  = require("../utils");
 var mongoose   = require("mongoose");
 var EterItem = require("../models/EterItem.js");
 var CacheBox = require("../models/CacheBox.js");
+var AdpickInfo = require("../models/AdpickInfo.js");
 var Up = require("../models/Up.js");
 var CSV = require("comma-separated-values");
 var multer = require("multer");
@@ -105,51 +106,55 @@ router.post("/setexcelupdate", upload.array("filenm"), function(req, res){
 router.post("/set_update", function(req, res) {
   var ary = [
     {
-      "packageCode": "7",
-      "packageName": "[CL] 불법무기 랜덤상자",
-      "cost": "130000",
-      "imgSrc": "/resource/img/box/BOX041.gif",
-      "itemInfo": [
-        {"luck":{"luck":"3.05","min":"0","max":"0"},"seq":"1","imgSrc":"/resource/img/CB001.gif","itemName":"[CL] ChainSaw Edge(Critical)","itemDesc":"[CL] ChainSaw Edge(Critical)","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"2","imgSrc":"/resource/img/CB002.gif","itemName":"[CL] Armament Axe","itemDesc":"[CL] Armament Axe","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"3","imgSrc":"/resource/img/CB003.gif","itemName":"[CL] Pinkie Hammer Head","itemDesc":"[CL] Pinkie Hammer Head","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"4","imgSrc":"/resource/img/CB004.gif","itemName":"[CL] Axis T halberd","itemDesc":"[CL] Axis T halberd","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"5","imgSrc":"/resource/img/CB005.gif","itemName":"[CL] 암영(暗影)","itemDesc":"[CL] 암영(暗影)","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"6","imgSrc":"/resource/img/CB006.gif","itemName":"[CL] Deathly Blade Ignition","itemDesc":"[CL] Deathly Blade Ignition","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"7","imgSrc":"/resource/img/CB007.gif","itemName":"[CL] Western Blade","itemDesc":"[CL] Western Blade","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"8","imgSrc":"/resource/img/CB008.gif","itemName":"[CL] Giga Metal HeavyAxe","itemDesc":"[CL] Giga Metal HeavyAxe","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"9","imgSrc":"/resource/img/CB009.gif","itemName":"[CL] Hammer Head","itemDesc":"[CL] Hammer Head","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"10","imgSrc":"/resource/img/CB010.gif","itemName":"[CL] Moon scythe","itemDesc":"[CL] Moon scythe","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"11","imgSrc":"/resource/img/CB011.gif","itemName":"[CL] Gungnir","itemDesc":"[CL] Gungnir","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"12","imgSrc":"/resource/img/CB012.gif","itemName":"[CL] Lightning Sword","itemDesc":"[CL] Lightning Sword","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"13","imgSrc":"/resource/img/CB013.gif","itemName":"[CL] Brilliance Edge","itemDesc":"[CL] Brilliance Edge","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"14","imgSrc":"/resource/img/CB014.gif","itemName":"[CL] Photon Axe","itemDesc":"[CL] Photon Axe","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"15","imgSrc":"/resource/img/CB015.gif","itemName":"[CL] Bron Crusher","itemDesc":"[CL] Bron Crusher","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"16","imgSrc":"/resource/img/CB016.gif","itemName":"[CL] Bloody Scythe","itemDesc":"[CL] Bloody Scythe","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"17","imgSrc":"/resource/img/CB017.gif","itemName":"[CL] 월아","itemDesc":"[CL] 월아","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"18","imgSrc":"/resource/img/CB018.gif","itemName":"[CL] Musketeer","itemDesc":"[CL] Musketeer","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"19","imgSrc":"/resource/img/CB019.gif","itemName":"[CL] Gyrojet W.I.T.O Custom","itemDesc":"[CL] Gyrojet W.I.T.O Custom","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"20","imgSrc":"/resource/img/CB020.gif","itemName":"[CL] H&K XM8 Mk2","itemDesc":"[CL] H&K XM8 Mk2","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"21","imgSrc":"/resource/img/CB021.gif","itemName":"[CL] Erase HMZ Model560","itemDesc":"[CL] Erase HMZ Model560","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"22","imgSrc":"/resource/img/CB022.gif","itemName":"[CL] Lase Blaster-Green","itemDesc":"[CL] Lase Blaster-Green","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"23","imgSrc":"/resource/img/CB023.gif","itemName":"[CL] SPAS-11 Recoilless","itemDesc":"[CL] SPAS-11 Recoilless","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"24","imgSrc":"/resource/img/CB024.gif","itemName":"[CL] Engine BUSTER","itemDesc":"[CL] Engine BUSTER","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"25","imgSrc":"/resource/img/CB025.gif","itemName":"[CL] Gaia SharpShooter HVAP","itemDesc":"[CL] Gaia SharpShooter HVAP","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"26","imgSrc":"/resource/img/CB026.gif","itemName":"[CL] Fennec Fox","itemDesc":"[CL] Fennec Fox","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"27","imgSrc":"/resource/img/CB027.gif","itemName":"[CL] Rain Shooter","itemDesc":"[CL] Rain Shooter","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"28","imgSrc":"/resource/img/CB028.gif","itemName":"[CL] RAILGUN - P/TYPE(Replica)","itemDesc":"[CL] RAILGUN - P/TYPE(Replica)","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"29","imgSrc":"/resource/img/CB029.gif","itemName":"[CL] Franchi SPAS-12 Prototype","itemDesc":"[CL] Franchi SPAS-12 Prototype","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"30","imgSrc":"/resource/img/CB030.gif","itemName":"[CL] The Swallow","itemDesc":"[CL] The Swallow","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"31","imgSrc":"/resource/img/CB031.gif","itemName":"[CL] Eagle Sniper","itemDesc":"[CL] Eagle Sniper","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"32","imgSrc":"/resource/img/CB032.gif","itemName":"[CL] H&K XM8 Full Burst","itemDesc":"[CL] H&K XM8 Full Burst","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"33","imgSrc":"/resource/img/CB033.gif","itemName":"[CL] Rail Burster","itemDesc":"[CL] Rail Burster","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"34","imgSrc":"/resource/img/CB034.gif","itemName":"[CL] Lase Blaster-Blue","itemDesc":"[CL] Lase Blaster-Blue","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"35","imgSrc":"/resource/img/CB035.gif","itemName":"[CL] Claymore Blaster(Replica)","itemDesc":"[CL] Claymore Blaster(Replica)","trscYn":"N"},
-        {"luck":{"luck":"2.77","min":"0","max":"0"},"seq":"36","imgSrc":"/resource/img/CB036.gif","itemName":"[CL] Eternal Flame","itemDesc":"[CL] Eternal Flame","trscYn":"N"}
-      ]
+      seq: '1',
+      name: '오크: 전쟁의서막',
+      a_href: 'https://oevery.com/1566063',
+      img_src: 'https://lh3.googleusercontent.com/tOhulcO6HxbkvBNbKnrfZhGXajvF3YOhrO9DBpBqApHKrQvHpuP2pvJTs5VDOf-qx78=s360-rw',
+      tag: '',
+      del_yn: 'N'
+    },
+    {
+      seq: '2',
+      name: '드래곤 스카이',
+      a_href: 'https://oevery.com/3921954',
+      img_src: 'https://lh3.googleusercontent.com/KFzXP9LgyLPCK6IjxuN3BUrC0Da8XpzUDYZ7GEgFNWGosjIe1PWKPrVXM3gu2TDI0Qk',
+      tag: '',
+      del_yn: 'N'
+    },
+    {
+      seq: '3',
+      name: '새 천하를 열다',
+      a_href: 'https://oevery.com/1718198',
+      img_src: 'https://lh3.googleusercontent.com/V_4azPDhi3IVlQIRTaiKkqdZRuorhMtYxn3DKQCQUtk3TnU-jcVEdyvDH3EcwZIqkdua',
+      tag: '',
+      del_yn: 'N'
+    },
+    {
+      seq: '4',
+      name: '풍신',
+      a_href: 'https://oevery.com/4246698',
+      img_src: 'https://lh3.googleusercontent.com/gwmuq7PbgXowN5Nf0O-vnzNF2SdNMSOAvEY3j2lrYl_LECZLfEYvWfZACLZ6E9M3uqk',
+      tag: '',
+      del_yn: 'N'
+    },
+    {
+      seq: '5',
+      name: '별의 소환사',
+      a_href: 'https://oevery.com/8709657',
+      img_src: 'https://lh3.googleusercontent.com/k_OPzmj99Rw7MhHR0ddBGMc49b0-OXQ7ghzB0ynBplKmxhLF52hb1m9VAPkSCNEACGRC',
+      tag: '',
+      del_yn: 'N'
+    },
+    {
+      seq: '6',
+      name: '유즈맵디펜스온라인',
+      a_href: 'https://oevery.com/7477076',
+      img_src: 'https://lh3.googleusercontent.com/NTeRSUuMJrb6XtRXmkX9RcdfctluDysljT1KYPP3qJTGifiP00emNX_LnDRAJeu0e3w',
+      tag: '',
+      del_yn: 'N'
     }
   ]
-  CacheBox.create(ary);
+  AdpickInfo.create(ary);
 
   //-------------------------------------------------
 
